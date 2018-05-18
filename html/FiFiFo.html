@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=2, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Search by Author</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="Navbar.css" rel="stylesheet">
+    <link rel="stylesheet" href="FiLeCabNet.css">
+    <link rel="stylesheet" href="_modals.scss">
+    <link rel="stylesheet" href="Tables.css">
+    <link rel="stylesheet" href="/Users/cristylegarrard/repos/taad/TaAdResponsive.css">
+    <script type="text/javascript" src="/Users/cristylegarrard/repos/taad/respond.src.js"></script>
+
+  </head>
+  <body>
+    <header>
+      <!--/large navbar-->
+      <nav class="lrGnaV">
+        <div class="container-fluid mynavbar">
+          <div class="row navbar stylish-color-dark no-gutters">
+            <div class="col-2 align-self-start justify-content-center">
+                <a class="navbar-brand" href="http://www.telescopearray.org"><img src="TALogo_720WFC.gif" alt="TA-Logo"></a>
+            </div>
+            <div class="col-10 align-self-end">
+              <div class="container">
+                <div class="row align-items-end justify-content-around no-gutters navBtns">
+                  <div class="col-2">
+                    <button type="button" class="btn btn-outline-secondary mybtn">
+                      <a class="navlinks" href="Omega.html">Research Database<span
+                      class="sr-only">(current)</span></a>
+                    </button>
+                  </div>
+                  <div class="col-2">
+                    <div class="dropdown">
+                      <button type="button" class="btn btn-outline-secondary mybtn" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Search our Library</button>
+                      <div class="dropdown-menu" aria-labeledby="dropdownMenu2">
+                        <a class="dropdown-item navlinks" href="Phi.html">Search by Author</a>
+                        <a class="dropdown-item navlinks" href="Chi.html">Search by Title</a>
+                        <a class="dropdown-item navlinks" href="Upsilon.html">Browse our Library</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-2">
+                    <button type="button" class="btn btn-outline-secondary waves-effect mybtn">
+                      <a class="navlinks"
+                    href="Tau.html">Meet the Authors</a>
+                    </button>
+                  </div>
+                  <div class="col-2">
+                    <button type="button" class="btn btn-outline-secondary waves-effect mybtn">
+                    <a class="navlinks" href="http://www.telescopearray.org">Telescope Array</a>
+                    </button>
+                  </div>
+                  <div class="col-2">
+                    <button type="button" class="btn btn-outline-secondary waves-effect mybtn">
+                      <a class="navlinks" href="Sigma.html">Login</a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!--large navbar/-->
+      <!--/Phone Navbar-->
+      <nav class="sMnAv">
+        <div class="container-fluid mynavbar">
+          <div class="row stylish-color-dark justify-content-between">
+            <div class="col-5 no-gutters LS">
+              <div class="row  justify-content-around no-gutters">
+                <button type="button" class="btn btn-outline-secondary mysmbtns MSB1"><a class="myicons1" href="Omega.html"><i class="fa fa-home" aria-hidden="true"></i></a></button>
+                <button type="button" class="btn btn-outline-default mysmbtns MSB2 myicons2" id="phnavdd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-search" aria-hidden="true"></i></button>
+                <div class="dropdown-menu" aria-labeledby="phnavdd">
+                  <a href="Phi.html" class="myicons3"><i class="fa fa-user" aria-hidden="true"> Search by Author</i></a>
+                  <a href="Chi" class="myicons3"><i class="fa fa-book" aria-hidden="true"> Search by Title</i></a>
+                  <a href="Upsilon" class="myicons3"><i class="fa fa-university" aria-hidden="true"> Search By Journal</i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-2 text-center justify-content-center align-self-center no-gutters MDL  img-thumbnail phoneicon">
+              <a class="phoneicon" href="http://www.telescopearray.org"><img src="/Users/cristylegarrard/repos/taad/TAlogoPhone.gif" alt="TA-Logo"></a>
+            </div>
+            <div class="col-5 no-gutters LS">
+              <div class="row justify-content-around no-gutters">
+                <button type="button" class="btn btn-outline-default mysmbtns MSB1"><a class="myicons2" href="#"><i class="fa fa-user" aria-hidden="true"></i></a></button>
+                <button type="button" class="btn btn-outline-secondary  mysmbtns MSB2"><a  class="myicons1" href="#"><i class="fa fa-rocket" aria-hidden="true"></i></a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!--Phone Navbar/-->
+    </header>
+    <main>
+      <div class="container-fluid maindiv">
+        <div class="row justify-content-center">
+          <div class="col-10 col-sm-12 col-xs-12 align-self-center">
+            <div class="row TbLcHi">
+              <div class="col-12 card-TbLcHi">
+                <div class="card-block">
+                  <div class="col-12 align-self-center TbLcHi2">
+                    <!--/Search By Author Table-->
+                    <table class="table table-hover table-sm ">
+                      <thead>
+                        <tr>
+                          <div class="row align-items center">
+                            <th class="TblHd">Author Name</th>
+                          </div>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <!--Beginning of table row-->
+                        <tr>
+                          <td class="noname">
+                            <a class="btn btn-block waves-effect"
+                            data-toggle="collapse" href="#AM2" aria-expanded="false"
+                            aria-controls="AM2">
+                            <h2 class="tBlBtn">Lawrence R Wiencke</h2></a>
+                              <div class="collapse databox" id="AM2">
+                                <div class="col-12">
+                                  <div class="container">
+                                    <div class="row justify-content-center fltrs">
+                                      <!--/Filter by Journal-->
+                                      <div class="col-6 dropdown">
+                                        <button type="button" class="btn btn-secondary
+                                        waves-effect flTrJournal" id="flTrJid" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Journal</button>
+                                        <div class="dropdown-menu dropdown-menu-center flTr-dd" aria-labeledby="flTrJid">
+                                          <table>
+                                            <tbody>
+                                              <tr class="flTrRow">
+                                                <td><a class="flTrddLink" href="#">Journal Name and a few more wordss</a></td>
+                                              </tr>
+                                              <tr class="flTrRow">
+                                                <td><a class="flTrddLink" href="#">Journal Names</a></td>
+                                              </tr>
+                                              <tr class="flTrRow">
+                                                <td><a class="flTrddLink" href="#">Journal Names</a></td>
+                                              </tr>
+                                              <tr class="flTrRow">
+                                                <td><a class="flTrddLink" href="#">Journal Names</a></td>
+                                              </tr>
+                                              <tr class="flTrRow">
+                                                <td><a class="flTrddLink" href="#">Journal Names</a></td>
+                                              </tr>
+                                              <tr class="flTrRow">
+                                                <td><a class="flTrddLink" href="#">Journal Names</a></td>
+                                              </tr>
+                                              <tr class="flTrRow">
+                                                <td><a class="flTrddLink" href="#">Journal Names</a></td>
+                                              </tr>
+                                              <tr class="flTrRow">
+                                                <td><a class="flTrddLink" href="#">Journal Names</a></td>
+                                              </tr>
+                                              <tr class="flTrRow">
+                                                <td><a class="flTrddLink" href="#">Journal Names</a></td>
+                                              </tr>
+                                              <tr class="flTrRow">
+                                                <td><a class="flTrddLink" href="#">Journal Names</a></td>
+                                              </tr>
+                                              <tr class="flTrRow">
+                                                <td><a class="flTrddLink" href="#">Journal Names</a></td>
+                                              </tr>
+                                              <tr class="flTrRow">
+                                                <td><a class="flTrddLink" href="#">Journal Names</a></td>
+                                              </tr>
+                                              <tr class="flTrRow">
+                                                <td><a class="flTrddLink" href="#">Journal Names</a></td>
+                                              </tr>
+                                              <tr class="flTrRow">
+                                                <td><a class="flTrddLink" hr    ef="#">Journal Names</a></td>
+                                              </tr>
+                                              <tr class="flTrRow">
+                                                <td><a class="flTrddLink" href="#">Journal Names</a></td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </div>
+                                      </div>
+                                      <!--Filter by Journal/-->
+                                      <!--/Filter by Year-->
+                                        <div class="col-6 dropdown">
+                                          <button type="button" class="btn btn-default waves-effect flTrJournal" id="flTrJid1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Year</button>
+                                              <div class="dropdown-menu dropdown-menu-center flTr-dd" aria-labeledby="flTrJid1">
+                                              <table>
+                                              <tbody>
+                                              <tr>
+                                              <td class="flTrddLink">2017</td>
+                                              </tr>
+                                              <tr>
+                                              <td class="flTrddLink">2016</td>
+                                              </tr>
+                                              <tr>
+                                              <td class="flTrddLink">2015</td>
+                                              </tr>
+                                              <tr>
+                                              <td class="flTrddLink">2014</td>
+                                              </tr>
+                                              <tr>
+                                              <td class="flTrddLink">2013</td>
+                                              </tr>
+                                              <tr>
+                                              <td class="flTrddLink">2012</td>
+                                              </tr>
+                                              <tr>
+                                              <td class="flTrddLink">2011</td>
+                                              </tr>
+                                              <tr>
+                                              <td class="flTrddLink">2010</td>
+                                              </tr>
+                                              <tr>
+                                              <td class="flTrddLink">2009</td>
+                                              </tr>
+                                              </tbody>
+                                              </table>
+                                              </div>
+                                              </div>
+                                              <!--Filter by Year/-->
+                                              </div>
+                                              <table class="table table-hover table-sm mytableSA">
+                                              <tbody>
+                                              <tr>
+                                              <td class="LkcLr">
+                                              <a target="_blank"
+                                              href="https://doi.org/10.1016/S0168-9002(99)00164-3" class="LkcLr">Radio-controlled xenon flashers for atmospheric monitoring at the HiRes cosmic ray observatory</a>
+                                              </td>
+                                              <td class="LkcLr">
+                                              <a target="_blank"
+                                              href="http://www.sciencedirect.com/science/article/pii/S0168900299001643" class="LkcLr waves">
+                                              <i class="fa
+                                              fa-book" aria-hidden="true"></i>
+                                              </a>
+                                              <a target="_blank" href="/Users/cristylegarrard/Desktop/Telescope Array/MDBtaWebSite/Images/Pdf/Articles/Journals/Nuclear_Instruments_and_Methods_in_physics/1999/Radio-controlled_xenon_flashers.pdf" class="LkcLr waves">
+                                              <i class="fa
+                                              fa-file-pdf-o" aria-hidden="true"></i>
+                                              </a>
+                                              </td>
+                                              </tr>
+                                              <tr>
+                                              <td class="LkcLr">
+                                              <!--link to original journal article if available. Otherwise like to local pdf-->
+                                              <a target="_blank"
+                                              href="#" class="LkcLr">Insert Title Here</a>
+                                              </td>
+                                              <td class="LkcLr">
+                                              <!--link to doi if available. Otherwise like to local pdf-->
+                                              <a target="_blank"
+                                              href="#" class="LkcLr">
+                                              <i class="fa
+                                              fa-book" aria-hidden="true"></i>
+                                              </a>
+                                              <!--link to local pdf-->
+                                              <a target="_blank" href="#" class="LkcLr">
+                                              <i class="fa
+                                              fa-file-pdf-o" aria-hidden="true"></i>
+                                              </a>
+                                              </td>
+                                              </tr>
+                                              <tr>
+                                              <td class="LkcLr">
+                                              <!--link to original journal article if available. Otherwise like to local pdf-->
+                                              <a target="_blank"
+                                              href="#" class="LkcLr">Insert Title Here</a>
+                                              </td>
+                                              <td class="LkcLr">
+                                              <!--link to doi if available. Otherwise like to local pdf-->
+                                              <a target="_blank"
+                                              href="#" class="LkcLr">
+                                              <i class="fa
+                                              fa-book" aria-hidden="true"></i>
+                                              </a>
+                                              <!--link to local pdf-->
+                                              <a target="_blank" href="#" class="LkcLr">
+                                              <i class="fa
+                                              fa-file-pdf-o" aria-hidden="true"></i>
+                                              </a>
+                                              </td>
+                                              </tr>
+                                              <tr>
+                                              <td class="LkcLr">
+                                              <!--link to original journal article if available. Otherwise like to local pdf-->
+                                              <a target="_blank"
+                                              href="#" class="LkcLr">Insert Title Here</a>
+                                              </td>
+                                              <td class="LkcLr">
+                                              <!--link to doi if available. Otherwise like to local pdf-->
+                                              <a target="_blank"
+                                              href="#" class="LkcLr">
+                                              <i class="fa
+                                              fa-book" aria-hidden="true"></i>
+                                              </a>
+                                              <!--link to local pdf-->
+                                              <a target="_blank" href="#" class="LkcLr">
+                                              <i class="fa
+                                              fa-file-pdf-o" aria-hidden="true"></i>
+                                              </a>
+                                              </td>
+                                              </tr>
+                                              <tr>
+                                              <td class="LkcLr">
+                                              <!--link to original journal article if available. Otherwise like to local pdf-->
+                                              <a target="_blank"
+                                              href="#" class="LkcLr">Insert Title Here</a>
+                                              </td>
+                                              <td class="LkcLr">
+                                              <!--link to doi if available. Otherwise like to local pdf-->
+                                              <a target="_blank"
+                                              href="#" class="LkcLr">
+                                              <i class="fa
+                                              fa-book" aria-hidden="true"></i>
+                                              </a>
+                                              <!--link to local pdf-->
+                                              <a target="_blank" href="#" class="LkcLr">
+                                              <i class="fa
+                                              fa-file-pdf-o" aria-hidden="true"></i>
+                                              </a>
+                                              </td>
+                                              </tr>
+                                              <tr>
+                                              <td class="LkcLr">
+                                              <!--link to original journal article if available. Otherwise like to local pdf-->
+                                              <a target="_blank"
+                                              href="#" class="LkcLr">Insert Title Here</a>
+                                              </td>
+                                              <td class="LkcLr">
+                                              <!--link to doi if available. Otherwise like to local pdf-->
+                                              <a target="_blank"
+                                              href="#" class="LkcLr">
+                                              <i class="fa
+                                              fa-book" aria-hidden="true"></i>
+                                              </a>
+                                              <!--link to local pdf-->
+                                              <a target="_blank" href="#" class="LkcLr">
+                                              <i class="fa
+                                              fa-file-pdf-o" aria-hidden="true"></i>
+                                              </a>
+                                              </td>
+                                              </tr>
+                                              <tr>
+                                              <td class="LkcLr">
+                                              <!--link to original journal article if available. Otherwise like to local pdf-->
+                                              <a target="_blank"
+                                              href="#" class="LkcLr">Insert Title Here</a>
+                                              </td>
+                                              <td class="LkcLr">
+                                              <!--link to doi if available. Otherwise like to local pdf-->
+                                              <a target="_blank"
+                                              href="#" class="LkcLr">
+                                              <i class="fa
+                                              fa-book" aria-hidden="true"></i>
+                                              </a>
+                                              <!--link to local pdf-->
+                                              <a target="_blank" href="#" class="LkcLr">
+                                              <i class="fa
+                                              fa-file-pdf-o" aria-hidden="true"></i>
+                                              </a>
+                                              </td>
+                                              </tr>
+                                              <tr>
+                                              <td class="LkcLr">
+                                              <!--link to original journal article if available. Otherwise like to local pdf-->
+                                              <a target="_blank"
+                                              href="#" class="LkcLr">Insert Title Here</a>
+                                              </td>
+                                              <td class="LkcLr">
+                                              <!--link to doi if available. Otherwise like to local pdf-->
+                                              <a target="_blank"
+                                              href="#" class="LkcLr">
+                                              <i class="fa
+                                              fa-book" aria-hidden="true"></i>
+                                              </a>
+                                              <!--link to local pdf-->
+                                              <a target="_blank" href="#" class="LkcLr">
+                                              <i class="fa
+                                              fa-file-pdf-o" aria-hidden="true"></i>
+                                              </a>
+                                              </td>
+                                              </tr>
+                                              <tr>
+                                              <td class="LkcLr">
+                                              <!--link to original journal article if available. Otherwise like to local pdf-->
+                                              <a target="_blank"
+                                              href="#" class="LkcLr">Insert Title Here</a>
+                                              </td>
+                                              <td class="LkcLr">
+                                              <!--link to doi if available. Otherwise like to local pdf-->
+                                              <a target="_blank"
+                                              href="#" class="LkcLr">
+                                              <i class="fa
+                                              fa-book" aria-hidden="true"></i>
+                                              </a>
+                                              <!--link to local pdf-->
+                                              <a target="_blank" href="#" class="LkcLr">
+                                              <i class="fa
+                                              fa-file-pdf-o" aria-hidden="true"></i>
+                                              </a>
+                                              </td>
+                                              </tr>
+                                              <tr>
+                                              <td class="LkcLr">
+                                              <!--link to original journal article if available. Otherwise like to local pdf-->
+                                              <a target="_blank"
+                                              href="#" class="LkcLr">Insert Title Here</a>
+                                              </td>
+                                              <td class="LkcLr">
+                                              <!--link to doi if available. Otherwise like to local pdf-->
+                                              <a target="_blank"
+                                              href="#" class="LkcLr">
+                                              <i class="fa
+                                              fa-book" aria-hidden="true"></i>
+                                              </a>
+                                              <!--link to local pdf-->
+                                              <a target="_blank" href="#" class="LkcLr">
+                                              <i class="fa
+                                              fa-file-pdf-o" aria-hidden="true"></i>
+                                              </a>
+                                              </td>
+                                              </tr>
+                                              <tr>
+                                              <td class="LkcLr">
+                                              <!--link to original journal article if available. Otherwise like to local pdf-->
+                                              <a target="_blank"
+                                              href="#" class="LkcLr">Insert Title Here</a>
+                                              </td>
+                                              <td class="LkcLr">
+                                              <!--link to doi if available. Otherwise like to local pdf-->
+                                              <a target="_blank"
+                                              href="#" class="LkcLr">
+                                              <i class="fa
+                                              fa-book" aria-hidden="true"></i>
+                                              </a>
+                                              <!--link to local pdf-->
+                                              <a target="_blank" href="#" class="LkcLr">
+                                              <i class="fa
+                                              fa-file-pdf-o" aria-hidden="true"></i>
+                                              </a>
+                                              </td>
+                                              </tr>
+                                              <tr>
+                                              <td class="LkcLr">
+                                              <!--link to original journal article if available. Otherwise like to local pdf-->
+                                              <a target="_blank"
+                                              href="#" class="LkcLr">Insert Title Here</a>
+                                              </td>
+                                              <td class="LkcLr">
+                                              <!--link to doi if available. Otherwise like to local pdf-->
+                                              <a target="_blank"
+                                              href="#" class="LkcLr">
+                                              <i class="fa
+                                              fa-book" aria-hidden="true"></i>
+                                              </a>
+                                              <!--link to local pdf-->
+                                              <a target="_blank" href="#" class="LkcLr">
+                                              <i class="fa
+                                              fa-file-pdf-o" aria-hidden="true"></i>
+                                              </a>
+                                              </td>
+                                              </tr>
+                                              </tbody>
+                                              </table>
+                                              </div>
+                                              </div>
+                                              </td>
+                                              </tr>
+                                              <!--end of table row-->
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+    <footer></footer>
+
+<!-- SCRIPTS -->
+<!-- JQuery -->
+<script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="tether.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="mdb.min.js"></script>
+</body>
+
+</html>

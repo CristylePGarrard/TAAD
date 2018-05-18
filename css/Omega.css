@@ -1,0 +1,18 @@
+.carousel-item {
+
+}
+
+.mycard-1 {
+  /*width: 300px;
+  height: 200px;*/
+  background-color: rgba(132, 19, 19, 0.51);
+  margin-top: 3rem;
+  outline-color: rgba(65, 11, 182, 0.9);
+  outline-width: thick;
+}
+.mycard-2 {
+  /*width: 550px;
+  height: 250px;*/
+  background-color: rgba(24, 153, 173, 0.51);
+  margin-top: 3rem;
+}

@@ -1,0 +1,70 @@
+/*styles for 300 and up @ 16px!*/
+/* The max-width declaration below blocks this from ever working */
+@media only screen and (min-width: 18.75em) and (max-width: 25em){
+
+}
+/*styles for 480px - 620px @ 16px!*/
+@media only screen and (min-width: 10em) and (max-width: 49em) {
+  .lrGnaV {display: none;}
+  .mybtn {  min-width: 3rem;
+              max-width: 7rem;}
+  .phoneicon {min-height:4em;
+                max-height:20em;
+                min-width: 4em;
+              max-width: 20em;}
+    .maindiv {min-width: 15em;
+                padding: .15rem;
+              margin-left, margin-right: .0em;
+              line-height: 1em;}
+    .TbLcHi {margin-left: 0em;
+                margin-right:0em;
+                margin-top: 4em;}
+    .h2, h2 {font-size: 1em !important;
+    }
+    .container {
+
+    }
+}
+
+/*styles for 800px and up @ 16px!*/
+@media screen and (min-width: 46em){
+  .miandiv {margin-top: 4rem;}
+  .sMnAv {display: none;}
+  .lrGnaV {display: block;}
+  .mybtn {max-width: 8.5rem;}
+}
+
+/*styles for 1100px and up @ 16px!*/
+@media screen and (min-width: 68.75em){
+	.miandiv {margin-top: 4rem;}
+    .sMnAv {display: none;}
+}
+
+/*one with pixels too! */
+/* NOTE - if the user were to increase his browser font size to 20px (chrome: Large),
+			the above (68.75em) media query will be incorrectly ignored!!!
+
+			Assuming 20px browser setting, we would expect to see this progression:
+			yellow > green > red > blue > NAVY > orange
+
+			However, the orange never kicks in... which seems like a browser bug!
+			Here's the math (assuming 20px browser setting):
+			1200/20 = 60em     <     68.75em
+*/
+@media screen and (min-width: 1200px){
+	.maindiv {margin-top: 4rem;}
+  .sMnAv {display: none;}
+}
+
+@media only screen and (min-width: 1250px) and (min--moz-device-pixel-ratio: 1.5),
+	only screen and (min-width: 1250px) and (-moz-min-device-pixel-ratio: 1.5),
+	only screen and (min-width: 1250px) and (-o-min-device-pixel-ratio: 3/2),
+	only screen and (min-width: 1250px) and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (min-width: 1250px) and (min-device-pixel-ratio: 1.5),
+	only screen and (min-width: 1250px) and (min-resolution: 1.5dppx),
+	screen and (min-width: 1250px)
+  {
+    .maindiv {margin-top: 4rem;}
+    .sMnAv {display: none;}
+
+  }

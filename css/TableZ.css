@@ -1,0 +1,61 @@
+.maindiv {
+  margin-top: 1em;
+  margin-left: .2em;
+  margin-right: .2em;
+  line-height: 1em;
+}
+.TbLcHi {
+  background-color: #1C2331;
+  padding: .5em;
+}
+.card-TbLcHi {
+  background-color: #78909c;
+  padding: 0em;
+  margin: 0em;
+}
+.TbLcHi2 {
+  background-color: #1C2331;
+  padding: .1em;
+}
+th.TblHd {
+  border: none !important;
+  color: #aa66cc;
+}
+h2.tBlBtn {
+  font-size: 1em;
+}
+.databox {
+  height: 250px;
+  overflow-y: auto;
+  font-size: 1em;
+  padding: 0em;
+  margin: 0em;
+}
+.flTrJournal {
+  padding: .5em;
+  width: 80%;
+  text-align: center;
+}
+.flTr-dd {
+  width: 50%;
+  /*line-height: 1.25em;*/
+  border: none !important;
+  height: 135px;
+  font-size: 3vw;
+  overflow-y: auto;
+}
+a.flTrddLink {
+  color: #2BBBAD !important;
+  font-size: 2.25vw;
+}
+td.flTrddLink {
+  width: 100%;
+  padding: .25em;
+}
+.LkcLr {
+  color: #aa66cc;
+  background-color: #1C2331;
+}
+a.LkcLr:hover {
+    color: #fff59d !important;
+}

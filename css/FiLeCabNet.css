@@ -1,0 +1,239 @@
+.mybtn {
+
+padding: 3px;
+}
+.toppings {
+  padding: 15rem;
+  border-width:20rem;
+}
+.FiLeCabNet {
+  background-color: #3E4551;
+  max-height: 75em;
+  padding: 1em;
+  width: 15em;
+  margin-top: 5em;
+}
+
+.blubox {
+  padding: .25em;
+}
+.mymodalSA {
+  font-size: 1.5vw;
+  background-color: #1C2331;
+  white-space: normal;
+}
+.mymodalSAhead {
+  font-size: 1vw;
+  border-width: medium;
+  white-space: normal;
+  padding-left:1rem;
+  padding-right:1rem;
+  padding-bottom:.05em;
+  padding-top: .5rem;
+  color:white;
+}
+/*.mymodal2 {
+  font-size: 1vw;
+  background-color: #1C2331;
+  border-color: white;
+  border-width: medium;
+  white-space: normal;
+
+}
+.mymodal3 {
+  font-size: 2vw;
+  background-color: #1C2331;
+  border-color: white;
+  border-width: medium;
+  white-space: normal;
+
+}*/
+th.columnOne {
+  color: #2BBBAD;
+  background-color: #1C2331;
+  font-size: 1.7vw;
+  text-align: center;
+  padding: 0;
+}
+td.columnOne {
+  padding-top: .22rem;
+  border-color:#1C2331;
+  border-width: 2px;
+  width:80%;
+}
+a.mylinks {
+  color: #1C2331;
+  font-size: 1vw;
+  text-align: center;
+}
+.mybtn1 {
+  color: #1C2331;
+  font-size: .7vw;
+}
+td.columnOne1{
+  padding-top: .22rem;
+  border-color:#1C2331;
+  border-width: 2px;
+  width:80%;
+  font-size: .9vw;
+}
+td.ColumnOne2{
+  padding-top: .5rem;
+  padding-right:0;
+  font-size:1vw;
+  width:65%;
+  text-align: justify;
+  align-items:center;
+  height:1.3rem;
+    color: #1C2331;
+}
+td.ColumnOne3{
+  padding: .3rem;
+  font-size:1vw;
+  width:25%;
+  text-align: center;
+  align-items: center;
+}
+td.ColumnOne4{
+  padding: .8rem;
+  font-size:1.2vw;
+  width:10%;
+  text-align: center;
+  align-items: center;
+}
+a.mylinks1 {
+  color: #1C2331;
+  font-size: 2vw;
+}
+/*.mycard-3 {
+  font-size: 2vw;
+  background-color: #1C2331;
+  border-color: white;
+  border-width: medium;
+  white-space: normal;
+}*/
+div.mytable1 {
+  margin-top: 1rem;
+  background-color: #b0bec5;
+  height: 70%;
+  padding:0;
+  margin: 1rem;
+  font-size: 1rem;
+  text-align: center;
+  width: 93%;
+}
+table.mytable1 {
+  margin-top: 1rem;
+}
+.mytable-head {
+  background-color: #1C2331;
+  color: white;
+}
+div.mytable1 {
+  margin-top: 1rem;
+  background-color: #b0bec5;
+  height: 100%;
+  padding:0;
+  margin: 0;
+}
+div.modal-footer {
+  padding: .5rem;
+}
+.modal-dialog{
+    overflow-y: initial !important
+}
+.modal-body{
+    height: 250px;
+    overflow-y: auto;
+}
+a.colVSAM {
+color: #aa66cc;
+}
+
+a.colVSAM:hover {
+    color: white !important;
+}
+
+td.colVSAM {
+  background-color: #1C2331 !important;
+  font-size: 1vw;
+  text-align: center;
+  color: #aa66cc;
+}
+.colTSAM {
+  background-color: #1C2331;
+  font-size: 1.15vw;
+  text-align: center;
+  height: .5rem;
+  color:white;
+}
+th.colTSAM {
+  color: #2BBBAD;
+}
+a.SAM {
+  color: #1C2331 !important;
+  background-color: #b0bec5;
+}
+.colVSAM:hover {
+  color: white !important;
+}
+.mMfB {
+  color: #1C2331 !important;
+  font-size: 1vw;
+  text-align: center;
+}
+h2.aBTN {
+  font-size: 1.5vw;
+  text-align: center;
+}
+.toppings {
+  width: 100%;
+}
+/*div.container {
+  padding: 0em;
+}*/
+.mycontainer {
+  padding-right: 2em;
+  padding-left: 2em;
+}
+.modal-btn {
+  width: 7rem;
+  font-size: 1vw;
+  font-weight: bold;
+  padding: .85em;
+}
+.modal-btn2 {
+  width: 5.75rem;
+  font-size: 1vw;
+  font-weight: bold;
+  padding: .85em;
+}
+.mybtn2 {
+  height: 3.5rem;
+  width: 9rem !important;
+  color: #2BBBAD !important;
+  background-color: #3E4551 !important;
+  padding: .85em;
+}
+td.ddlink {
+  color: white !important;
+  background-color: #4B515D;
+  padding: 1em;
+  white-space: normal;
+    font-size: .75rem;
+}
+.JddLink {
+
+}
+td.ddlink:hover {
+  background-color: #3E4551 !important;
+  color: white;
+}
+.mydd {
+  height: 200px;
+  width: 20px;
+  overflow-y: auto;
+}
+.main1 {
+  padding-right: 7rem !important;
+}

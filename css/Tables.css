@@ -1,0 +1,111 @@
+
+.mybtn {
+width: 10rem;
+padding: 3px;
+}
+
+table.mytableSA {
+  background-color: #b0bec5;
+  color: #1C2331;
+  font-size: 1rem;
+}
+.card-TbLcHi {
+  background-color: #78909c;
+  padding: 0;
+  margin: 0;
+  min-width: 5rem;
+}
+.MTcard:hover {
+    color: white !important;
+}
+
+.TbLcHi {
+  background-color: #1C2331;
+  padding: 1em;
+  margin-left: 3rem;
+  margin-right: 0;
+}
+.TbLcHi2 {
+  background-color: #1C2331;
+  padding: 1em;
+  min-width: 3em;
+}
+table.TbLcHi {
+  background-color: #1C2331;
+  color: #82b1ff;
+  padding: .1em;
+  font-size: 2vw;
+}
+thead.TbLcHihead {
+  background-color: #1C2331;
+  font-size: 1.5vw;
+  text-align: center;
+  color: #aa66cc;
+  padding: .5em;
+}
+thead.TblHead {
+  background-color: #1C2331;
+  text-align: center;
+  color: #aa66cc;
+  padding: .5em;
+}
+th.TRtBlChi {
+  background-color: #1C2331;
+  font-size: 2vw;
+  text-align: center;
+  outline-color: #1C2331;
+  width:100%;
+}
+th.TblHd {
+  text-align: center !important;
+  border: none !important;
+  color: #aa66cc;
+  /*border-collapse: separate;*/
+}
+tr.TRtBlChi {
+  color: #2BBBAD;
+  background-color: #1C2331;
+  font-size: 1vw;
+  text-align: center;
+}
+.databox {
+  height: 250px;
+  overflow-y: auto;
+  width: 100%;
+}
+.tblbox {
+  height: 700px;
+  overflow-y: auto;
+}
+th.TbLcHihead-sm {
+  font-size: 2em;
+  text-align: center;
+  color: #90a4ae;
+  background-color: #1C2331;
+}
+.TbLcHi-sm {
+  background-color: #37474F;
+  padding: 1rem;
+  align-items: center;
+}
+.TbLcHi-btn {
+  font-size: 2vw;
+  height:2.8rem;
+  width: 8rem;
+  color: #263238 !important;
+  font-weight: bold;
+  padding: .5em;
+  margin: 0px;
+}
+.TbLcHi-btn:hover {
+  color: white !important;
+}
+.TbLcHi-sm-row {
+  padding: .5rem;
+  margin: .2rem;
+}
+.phoneview {
+  padding-top: .35rem !important;
+}
+.noname {
+  min-width: 5em !important;}

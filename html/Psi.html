@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Search Our Library</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="/Applications/XAMPP/xamppfiles/htdocs/Getting Started/MDB Free/css/bootstrap.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="/Applications/XAMPP/xamppfiles/htdocs/Getting Started/MDB Free/css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="/Users/cristylegarrard/Desktop/Telescope Array/Telescope Array/MDBtaWebSite/Navbar.css" rel="stylesheet">
+    <link rel="stylesheet" href="/Users/cristylegarrard/Desktop/Telescope Array/Telescope Array/MDBtaWebSite/FiLeCabNet.css">
+    <link rel="stylesheet" href="/Users/cristylegarrard/Desktop/Telescope Array/Telescope Array/MDBtaWebSite/MDB Free/sass/mdb/free/_modals.scss">
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-toggleable-md navbar-dark stylish-color-dark">
+      <div class="container">
+        <button type="button" class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#collapseEx2" aria-controls="collapseEx2" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <a class="navbar-brand hidden-md-down" href="http://www.telescopearray.org"><img src="/Users/cristylegarrard/Desktop/Telescope Array/Telescope Array/TA-Website/Images/RsrchDatabsEssentials/TALogo_720WFC.gif" alt="TA-Logo"></a>
+        <div class="collapse navbar-collapse justify-content-between" id="collapseEx2">
+          <div class="row d-flex no-gutters mylinks align-items-end">
+            <ul class="navbar-nav mr-auto no-gutters">
+              <li class="nav-item col">
+                <button type="button" class="btn btn-outline-secondary mybtn"><a href="/Users/cristylegarrard/Desktop/Telescope Array/Telescope Array/MDBtaWebSite/Omega.html" class="nav-link">Reserach Database Home<span class="sr-only">(current)</span></a></button>
+              </li>
+              <li class="nav-item col">
+                <div class="dropdown">
+                  <button type="button" class="btn btn-outline-secondary waves-effect mybtn" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Search our Library</a>
+                  </button>
+                  <div class="dropdown-menu dropdown-menu-right" aria-labeledby="dropdownMenu2">
+                    <a class="dropdown-item text-white" href="/Users/cristylegarrard/Desktop/Telescope Array/Telescope Array/MDBtaWebSite/Phi.html">Search by Author</a>
+                    <a class="dropdown-item text-white" href="/Users/cristylegarrard/Desktop/Telescope Array/Telescope Array/MDBtaWebSite/Chi.html">Search by Title</a>
+                    <a class="dropdown-item text-white" href="/Users/cristylegarrard/Desktop/Telescope Array/Telescope Array/MDBtaWebSite/Upsilon.html">Browse our Library</a>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item col">
+                <button type="button" class="btn btn-outline-secondary waves-effect mybtn"><a class="nav-link" href="/Users/cristylegarrard/Desktop/Telescope Array/Telescope Array/MDBtaWebSite/Tau.html">Meet the Authors</a></button>
+
+              </li>
+              <li class="nav-item col">
+                <button type="button" class="btn btn-outline-secondary waves-effect mybtn"><a class="nav-link" href="http://www.telescopearray.org">Telescope Array Home</a></button>
+
+              </li>
+              <li class="nav-item col">
+                <button type="button" class="btn btn-outline-secondary waves-effect mybtn"><a class="nav-link" href="/Users/cristylegarrard/Desktop/Telescope Array/Telescope Array/MDBtaWebSite/Sigma.html">Login</a></button>
+
+              </li>
+            </ul>
+
+          </div>
+          <div class="col-3">
+            <!-- <form class="form-inline waves-effect waves-light myform">
+              <input type="text" class="form-control" placeholder="Search">
+            </form> -->
+          </div>
+
+        </div>
+      </div>
+    </nav>
+
+  </header>
+  <main>
+    <div class="container">
+      <div class="row align-items-end">
+        <div class="col-md-4">
+          <div class="FiLeCabNet col-md-10">
+            <div class="row justify-content-center">
+              <div class="card text-center unique-color-dark mycard-3">
+                <div class="card-block">
+                  <button type="button" class="btn btn-outline-default waves-effect mybtn" data-toggle="modal" data-target="#fullHeightModalRight">Search by Title</button>
+                  <!--Modal-->
+                  <div class="modal fade right" id="fullHeightModalRight" tabindex="-1" role="dialog" aria-labeledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-full-height modal-right" role="document">
+                      <!--Content-->
+                      <div class="modal-content mymodal">
+                        <!--Header-->
+                        <div class="modal-header">
+                          <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> -->
+                          <form class="form-inline waves-effect waves-light"><input class="form-control" type="text" placeholder="Search Title">
+                          </form>
+                        </div>
+                        <!--Body-->
+                        <div class="modal-body">
+                          <table class="table table-hover table-sm">
+                            <thead class="thead-inverse">
+                              <tr>
+                                <th>#</th>
+                                <th>Title</th>
+                                <th>Download</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">1</th>
+                                <td><a href="#">Propagation of ultra-high-energy cosmic ray nuclei in cosmic magnetic fields and implications for anisotropy measurements</a></td>
+                                <td>
+                                  <a class="blue-text"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+                                  <a href="#"><i class="fa fa-download" aria-hidden="true"></i></a>
+                                  <a href="#"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                </td>
+                              </tr>
+                              <tr>
+                                <th scope="row">2</th>
+                                <td><a href="#">A Fiber-Optic-Based Calibration System for the High Resolution Fly's Eye Cosmic Ray Observatory</a></td>
+                                <td>
+                                  <a class="blue-text"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+                                  <a href="#"><i class="fa fa-download" aria-hidden="true"></i></a>
+                                  <a href="#"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                </td>
+                              </tr>
+                              <tr>
+                                <th scope="row">3</th>
+                                <td><a href="#">Indications of Proton-Dominated Cosmic-Ray Composition above 1.6 EeV</a></td>
+                                <td>
+                                  <a class="blue-text"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+                                  <a href="#"><i class="fa fa-download" aria-hidden="true"></i></a>
+                                  <a href="#"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                </td>
+                              </tr>
+                              <tr>
+                                <th scope="row">4</th>
+                                <td><a href="#">Search for Ultra-High Energy Photons and Neutrinos using the Telescope Array Scintillator Array Data</a></td>
+                                <td>
+                                  <a class="blue-text"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+                                  <a href="#"><i class="fa fa-download" aria-hidden="true"></i></a>
+                                  <a href="#"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                </td>
+                              </tr>
+                            </tbody>
+
+                          </table>
+
+
+                        </div>
+                        <!--Footer-->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-mdb" data-dismiss="modal">Close</button>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-mdb" data-dismiss="modal">Close</button>
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="card text-center unique-color-dark">
+                <div class="card-block">
+                  <button type="button" class="btn btn-outline-default waves-effect mybtn" data-toggle="modal" data-target="#fullHeightModalRight2">Search by Author</button>
+                  <div class="modal fade right" id="fullHeightModalRight2" tabindex="-1" role="dialog" aria-labeledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-full-height modal-right" role="document">
+                      <!--Content-->
+                      <div class="modal-content mymodal2">
+                        <!--Header-->
+                        <div class="modal-header">
+                          <form class="form-inline waves-effect waves-light"><input class="form-control" type="text" placeholder="Search Author">
+                          </form>
+                        </div>
+                        <!--Body-->
+                        <div class="modal-body">
+                          <table class="table table-hover table-sm">
+                            <thead class="thead-inverse">
+                              <tr>
+                                <th>#</th>
+                                <th>Author Name</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">1</th>
+                                <td><a href="#">John Matthews</a></td>
+                              </tr>
+                              <tr>
+                                <th scope="row">2</th>
+                                <td><a href="#">G.I. RUBTSOV</a></td>
+                              </tr>
+                              <tr>
+                                <th scope="row">3</th>
+                                <td><a href="#">M. FUKUSHIMA</a></td>
+                              </tr>
+                              <tr>
+                                <th scope="row">4</th>
+                                <td><a href="#">D. IVANOV</a></td>
+                              </tr>
+                            </tbody>
+
+                          </table>
+
+
+                        </div>
+                        <!--Footer-->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-mdb" data-dismiss="modal">Close</button>
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="card text-center unique-color-dark">
+                <div class="card-block">
+                  <button type="button" class="btn btn-outline-default waves-effect mybtn" data-toggle="modal" data-target="#fullHeightModalRight3">Search by Author</button>
+                  <div class="modal fade right" id="fullHeightModalRight3" tabindex="-1" role="dialog" aria-labeledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-full-height modal-right" role="document">
+                      <!--Content-->
+                      <div class="modal-content mymodal3">
+                        <!--Header-->
+                        <div class="modal-header">
+                          <form class="form-inline waves-effect waves-light"><input class="form-control" type="text" placeholder="Search">
+                          </form>
+                        </div>
+                        <!--Body-->
+                        <div class="modal-body">
+                          <div class="modal-header">
+                            <form class="form-inline waves-effect waves-light"><input class="form-control" type="text" placeholder="Search Title">
+                            </form>
+                          </div>
+                        <div class="modal-body">
+                          <table class="table table-hover table-sm">
+                            <thead class="thead-inverse">
+                              <tr>
+                                <!-- <th>#</th> -->
+                                <th>Title</th>
+                                <th>Journal</th>
+                                <th>Year</th>
+                              </tr>
+                            </thead>
+                              <tbody>
+                                <tr>
+                                  <td>
+                                  Propagation of ultra-high-energy cosmic ray nuclei in cosmic magnetic fields and implications for anisotropy measurements
+                                  </td>
+                                  <td>
+                                    Astroparticle Physics
+                                  </td>
+                                  <td>
+                                  2012
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>A Fiber-Optic-Based Calibration System for the High Resolution Fly's Eye Cosmic Ray Observatory</td>
+                                  <td>Nuclear Instruments and Methods</td>
+                                  <td>2001</td>
+                                </tr>
+                                <tr>
+                                  <td>Tracing protons through the Galactic magnetic field: a clue for charge composition of ultra-high-energy cosmic rays</td>
+                                  <td>Astroparticle Physics</td>
+                                  <td>2002</td>
+                                </tr>
+                              </tbody>
+                          </table>
+                        </div>
+                      </div>
+                        <!--Footer-->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-mdb" data-dismiss="modal">Close</button>
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer></footer>
+
+
+
+
+
+
+
+
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="/Applications/XAMPP/xamppfiles/htdocs/Getting Started/MDB Free/js/jquery-3.1.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="/Applications/XAMPP/xamppfiles/htdocs/Getting Started/MDB Free/js/tether.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="/Applications/XAMPP/xamppfiles/htdocs/Getting Started/MDB Free/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="/Applications/XAMPP/xamppfiles/htdocs/Getting Started/MDB Free/js/mdb.min.js"></script>
+</body>
+
+</html>

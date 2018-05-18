@@ -1,0 +1,91 @@
+body {
+  position: relative;
+  min-height: 70rem;
+  background: url("/Users/cristylegarrard/repos/taad/images/ChlKbrDbkground.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.navbar {
+  height: 5.85rem;
+margin-bottom: 2rem;
+}
+.mynav {
+
+}
+a.navlinks {
+  color: #2BBBAD !important;
+  white-space: normal;
+  font-size: .7.5rem;
+  text-align: center;
+  /*text-transform: initial;*/
+}
+.mybtn {
+  height: 2.5rem;
+  width: 7rem !important;
+  color: #2BBBAD !important;
+  background-color: #3E4551 !important;
+  text-transform: initial;
+  font-size: .7.5rem;
+}
+.mybtn:hover {
+  background-color: #3E4551 !important;
+  color: #fff59d !important;
+}
+.dropdown-menu {
+  background-color: #4B515D;
+}
+a.dropdown-item {
+  color: #2BBBAD;
+  white-space: normal;
+  font-size: .8rem;
+}
+.navBtns {
+  padding-top: 1rem;
+}
+.phonenav {
+  height: 4rem;
+}
+.phoneicon{
+  padding-top: .75rem !important;
+  font-size: .5vw !important;
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
+}
+.phIcons {
+  padding: 2rem;
+}
+a.myicons3 {
+    color: #2BBBAD !important;
+    /*padding-top: 3rem !important;*/
+}
+.myicons1 {
+    color: #2BBBAD !important;
+}
+.myicons2 {
+    color: #aa66cc !important;
+}
+.phnavdd {
+  color: #2BBBAD !important;
+  background-color: #3E4551;
+  padding: .2rem;
+}
+a.navlinks:hover {
+    color: #fff59d !important;
+    background-color: #3E4551 !important;
+}
+.mysmbtns {
+  width: 2.5rem !important;
+  height: 2.5rem;
+  padding: .12rem;
+  margin: .5rem;
+  background-color: #4B515D;
+  font-size: .5rem;
+  text-align: center !important;
+}
+.mynavbar {
+  padding-right: 0;
+  padding-left: 0;
+}

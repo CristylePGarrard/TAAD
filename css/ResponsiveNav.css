@@ -1,0 +1,181 @@
+@media only screen and  (max-width: 46em){
+  .lrGnaV {display: none;}
+}
+@media screen and (min-width: 46em){
+  .sMnAv {display: none;}
+
+}
+@media only screen and (min-width: 1250px) and (min--moz-device-pixel-ratio: 1.5),
+	only screen and (min-width: 1250px) and (-moz-min-device-pixel-ratio: 1.5),
+	only screen and (min-width: 1250px) and (-o-min-device-pixel-ratio: 3/2),
+	only screen and (min-width: 1250px) and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (min-width: 1250px) and (min-device-pixel-ratio: 1.5),
+	only screen and (min-width: 1250px) and (min-resolution: 1.5dppx),
+	screen and (min-width: 1250px)
+  {
+  .sMnAv {display:none;}
+  }
+
+body {
+  position: relative;
+  background: url("/Users/cristylegarrard/repos/taad/ChlKbrDbkground.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+
+.mynavbar {
+    padding-right: 0;
+    padding-left: 0;}
+.navBtns {
+      margin-top: 1.5rem;
+    }
+.mysmbtns {
+  padding: 1rem;
+  margin-top: .5rem;}
+
+.myicons1 {
+    color: #2BBBAD !important;}
+
+.myicons2 {
+    color: #aa66cc !important;}
+
+.dropdown-menu {
+  background-color: #4B515D;
+  margin-left: 1em;
+  padding-left: .5em;
+  padding-top: .2em;}
+
+a.myicons3 {color: #2BBBAD !important;}
+
+a.navlinks:hover {
+  color: #fff59d !important;
+  background-color: #3E4551 !important;}
+a.navlinks {
+  color: #2BBBAD !important;
+  white-space: normal;
+  text-align: center;
+  margin: 0em;
+    }
+.mybtn {
+  height: 2.5rem;
+  width: 7.25rem !important;
+  color: #2BBBAD !important;
+  background-color: #3E4551 !important;
+  text-transform: initial;
+  margin: 0.5em;
+  padding: .25em;
+  }
+.mybtn:hover {
+  background-color: #3E4551 !important;
+  color: #fff59d !important;
+  }
+.mynavbar1 {
+  height: 7em;
+  margin-bottom: .1em !important;
+}
+.FiLeCabNet {
+  background-color: #3E4551;
+  /*max-height: 75em;*/
+  width: 12vw;
+  margin-top: 5em;
+  padding-left: 0em;
+  margin-left: 0em;
+}
+.mybtn2 {
+  height: 3.75vw;
+  width: 10vw !important;
+  color: #2BBBAD !important;
+  background-color: #3E4551 !important;
+  padding: .23em;
+  font-size: 1.25vw;
+}
+.drkBlue {
+  margin-top: .25em;
+  margin-bottom: .25em;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding: 0em;
+}
+.flcbnet {
+  padding-left: 0.2em !important;
+
+}
+.mymodalSA {
+  /*font-size: 1vw;*/
+  background-color: #1C2331;
+  /*white-space: normal;*/
+}
+.mymodalSAhead {
+  font-size: 1vw;
+  height: 50px;
+  border-width: medium;
+  white-space: normal;
+  padding-left:1rem;
+  padding-right:1rem;
+  padding-bottom:.05em;
+  padding-top: .5rem;
+  color:white;
+}
+.mydd {
+  height: 200px;
+  width: 80%;
+  overflow-y: auto;
+}
+td.ddlink {
+  color: white !important;
+  background-color: #4B515D;
+  padding: 1em;
+  white-space: normal;
+    font-size: .75rem;
+}
+td.ddlink:hover {
+  background-color: #3E4551 !important;
+  color: white;
+}
+a.SAM {
+  color: #1C2331 !important;
+  background-color: #b0bec5;
+  font-size: .5vw;
+}
+a.colVSAM {
+color: #aa66cc;
+}
+a.colVSAM:hover {
+    color: white !important;
+}
+td.colVSAM {
+  background-color: #1C2331 !important;
+  font-size: 1vw;
+  text-align: center;
+  color: #aa66cc;
+}
+.colTSAM {
+  background-color: #1C2331;
+  font-size: 1.15vw;
+  text-align: center;
+  height: .5rem;
+  color:white;
+}
+h2.aBTN {
+  font-size: 1.5vw;
+  text-align: center;
+}
+th.colTSAM {
+  color: #2BBBAD;
+}
+.modalTable {
+  overflow-y: auto;
+  height: 100px;
+}
+.FBM {
+  width: 100%;
+  padding-top: 1.75em;
+}
+
+.modal-btn2 {
+  width: 5.75rem;
+  font-size: 1vw;
+  font-weight: bold;
+  padding: .85em;
+}
