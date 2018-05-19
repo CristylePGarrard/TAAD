@@ -18,7 +18,7 @@
 
 body {
   position: relative;
-  background: url("/Users/cristylegarrard/repos/taad/ChlKbrDbkground.jpg") no-repeat center center fixed;
+  background: url("images/ChlKbrDbkground.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
