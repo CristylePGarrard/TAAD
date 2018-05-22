@@ -39,7 +39,7 @@
                       <button type="button" class="btn btn-outline-secondary mybtn" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Search our Library</button>
                       <div class="dropdown-menu" aria-labeledby="dropdownMenu2">
                         <a class="dropdown-item navlinks" href="Phi.html">Search by Author</a>
-                        <a class="dropdown-item navlinks" href="Chi.html">Search by Title</a>
+                        <a class="dropdown-item navlinks" href="Chi.html">Search by Journal</a>
                         <a class="dropdown-item navlinks" href="Upsilon.html">Browse our Library</a>
                       </div>
                     </div>
@@ -73,10 +73,10 @@
               <div class="row justify-content-around no-gutters">
                 <button type="button" class="btn btn-outline-secondary mysmbtns"><a class="myicons1" href="Omega.html"><i class="fa fa-home" aria-hidden="true"></i></a></button>
                 <button type="button" class="btn btn-outline-default mysmbtns myicons2" id="phnavdd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-search" aria-hidden="true"></i></button>
-                <div class="dropdown-menu" aria-labeledby="phnavdd">
+                <div class="dropdown-menu" aria-labeledby="phnavdd" style="padding-left:.1em;">
                   <a href="Phi.html" class="myicons3"><i class="fa fa-user" aria-hidden="true"> Search by Author</i></a>
-                  <a href="Chi.html" class="myicons3"><i class="fa fa-book" aria-hidden="true"> Search by Title</i></a>
-                  <a href="Upsilon.html" class="myicons3"><i class="fa fa-university" aria-hidden="true"> Search By Journal</i></a>
+                  <a href="Chi.html" class="myicons3"><i class="fa fa-book" aria-hidden="true"> Search by Journal</i></a>
+                  <a href="Upsilon.html" class="myicons3"><i class="fa fa-university" aria-hidden="true"> Browse our Library</i></a>
                 </div>
               </div>
             </div>
@@ -1036,8 +1036,153 @@
                         <div class="col-12 card-TbLcHi">
                           <div class="card-block">
                             <div class="col-12 align-self-center TbLcHi2">
-                              <table class="table table-hover table-sm TbLcHi">
-                                <thead class="TbLcHihead"></thead>
+                              <div class="row justify-content-end no-gutters">
+                                <!--/Search form-->
+                                <div class="col-6 align-self-right">
+                                  <div class="input-group md-form form-sm form-2 pl-0 Searching">
+                                    <input class="form-control my-0 py-1" type="text" placeholder="Search" aria-label="Search">
+                                    <span class="input-group-addon cyan lighten-2" id="basic-addon1"><i class="fa fa-search text-grey" aria-hidden="true"></i></span>
+                                  </div>
+                                </div>
+                                <!--\Search form-->
+                              </div>
+                              <table class="table table-hover table-sm">
+                                <thead class="text-white">
+                                  <tr>
+                                    <th >Article Title</th>
+                                    <th >Journal</th>
+                                    <th >Year</th>
+                                    <th >Download</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <!-- <tr>
+                                    <td >
+                                      <a href="#" >Article Title</a>
+                                    </td>
+                                    <td >
+                                      <a href="#" >Journal Name</a>
+                                    </td>
+                                    <td >
+                                      <a href="#" >Article Year</a>
+                                    </td>
+                                    <td >
+                                      <a href="#" >Links</a>
+                                    </td>
+                                  </tr> -->
+                                  <tr>
+                                    <td >
+                                      <a href="#" >500 Tev G41Ma Rays From Hercules X-1</a>
+                                    </td>
+                                    <td >
+                                      <a href="#" >19Th International Cosmic Ray Conference</a>
+                                    </td>
+                                    <td >
+                                      <a href="#" >1985</a>
+                                    </td>
+                                    <td >
+                                      <a href="pdf/artilcles/journals/icrc/1977/1977icrcv8p252m.pdf" >View</a>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td >
+                                      <a href="#" >A Fiber-Optic-Based Calibration System For the High Resolution Fly's Eye Cosmic Ray Observatory</a>
+                                    </td>
+                                    <td >
+                                      <a href="#" >Nuclear Instruments and Methods In Physics Research A</a>
+                                    </td>
+                                    <td >
+                                      <a href="#" >2001</a>
+                                    </td>
+                                    <td >
+                                      <a href="pdf/artilcles/journals/reviewofscientificinstruments/2000/rsi00816.pdf" >View</a>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td >
+                                      <a href="#" >A Likelihood Method For Measuring the Ultrahigh Energy Cosmic Ray Composition</a>
+                                    </td>
+                                    <td >
+                                      <a href="#" >Astroparticle Physics</a>
+                                    </td>
+                                    <td >
+                                      <a href="#" >2006</a>
+                                    </td>
+                                    <td >
+                                      <a href="pdf/artilcles/journals/nuclear_instruments_and_methods_in_physics/2008/2008trigger_electronics_ta.pdf" >Links</a>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td >
+                                      <a href="#" >A Linear Accelerator For Ta-Fd Calibration</a>
+                                    </td>
+                                    <td >
+                                      <a href="#" >30TH INTERNATIONAL COSMIC RAY CONFERENCE</a>
+                                    </td>
+                                    <td >
+                                      <a href="#" >2008</a>
+                                    </td>
+                                    <td >
+                                      <a href="pdf/artilcles/journals/icrc/2007/2007icrc_central_laser_facility.pdf" >Links</a>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td >
+                                      <a href="http://articles.adsabs.harvard.edu/cgi-bin/nph-iarticle_query?1985ApJ...293L..69B&amp;data_type=PDF_HIGH&amp;whole_paper=YES&amp;type=PRINTER&amp;filetype=.pdf" >A Measurement of the Average Longitudinal Development Profile of Cosmic Ray Air Showers Between 10^17 and 10^18 eV</a>
+                                    </td>
+                                    <td >
+                                      <a href="http://adsabs.harvard.edu/abs/1985ApJ...293L..69B" >Astroparticle Physics</a>
+                                    </td>
+                                    <td >
+                                      <a href="http://adsabs.harvard.edu/abs/1985ApJ...293L..69B" >2001</a>
+                                    </td>
+                                    <td >
+                                      <a href="/Journals/TheAstrophysicalJournal/1985/EVIDENCE_FOR_500_TeV.pdf" >Links</a>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td >
+                                      <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.39.847" >On the Evidence For Clustering In the Arrival Directions of Agasa’s Ultrahigh Energy Cosmic Rays</a>
+                                    </td>
+                                    <td >
+                                      <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.39.847" >Astroparticle Physics</a>
+                                    </td>
+                                    <td >
+                                      <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.39.847" >2004</a>
+                                    </td>
+                                    <td >
+                                      <a href="/Journals/PhysicalReviewLetters/1977/Measurement_of_Light_Emission " >Links</a>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td >
+                                      <a href="http://iopscience.iop.org/journal/2041-8205" >Geometry and Optics Calibration For Air Fluorescence Detectors Using Star Light</a>
+                                    </td>
+                                    <td >
+                                      <a href="http://iopscience.iop.org/journal/2041-8205" >Astroparticle Physics</a>
+                                    </td>
+                                    <td >
+                                      <a href="http://iopscience.iop.org/journal/2041-8205" >2002</a>
+                                    </td>
+                                    <td >
+                                      <a href="/Journals/TheAstrophysicalJournal/1984/LIMITS_ON_ASTROPHYSICAL.pdf" >Links</a>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td >
+                                      <a href="http://adsabs.harvard.edu/abs/1985ApJ...297..145B" >Energy Estimation of Uhe Cosmic Rays Using the Atmospheric ?uorescence Technique</a>
+                                    </td>
+                                    <td >
+                                      <a href="http://adsabs.harvard.edu/abs/1985ApJ...297..145B" >Astroparticle Physics</a>
+                                    </td>
+                                    <td >
+                                      <a href="http://adsabs.harvard.edu/abs/1985ApJ...297..145B" >2000</a>
+                                    </td>
+                                    <td >
+                                      <a href="/Journals/TheAstrophysicalJournal/1985/UPPER_LIMITS_FOR_NORTHERN.pdf" >Links</a>
+                                    </td>
+                                  </tr>
+                                </tbody>
                               </table>
                             </div>
                           </div>
