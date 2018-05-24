@@ -1,18 +1,25 @@
 .carousel-item {
-
+height:100%
 }
 
 .mycard-1 {
   /*width: 300px;
   height: 200px;*/
-  background-color: rgba(132, 19, 19, 0.51);
+  /* background-color: rgba(132, 19, 19, 0.51); */
   margin-top: 3rem;
-  outline-color: rgba(65, 11, 182, 0.9);
-  outline-width: thick;
+  height:auto;
+  /* outline-color: rgba(65, 11, 182, 0.9);
+  outline-width: thick; */
 }
 .mycard-2 {
-  /*width: 550px;
-  height: 250px;*/
-  background-color: rgba(24, 153, 173, 0.51);
-  margin-top: 3rem;
+  /* width: 100% */
+  height: 100%;
+  padding:1em;
+}
+.photobox {
+  height: 30em;
+}
+.carousel_photo {
+  .img-fluid. max-width: 100%;
+  height: auto;
 }
