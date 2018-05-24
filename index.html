@@ -16,145 +16,165 @@
     <link rel="stylesheet" href="css/FiLeCabNet.css">
     <link rel="stylesheet" href="css/modals.scss">
     <link rel="stylesheet" href="css/Tables.css">
+    <link rel="stylesheet" href="css/Omega.css">
   </head>
-  <body>
-    <header style="padding-bottom:3em;">
-      <nav class="hidden-xs-down">
-        <div class="container-fluid mynavbar">
-          <div class="row navbar stylish-color-dark align-items-end no-gutters">
-            <div class="col-2 align-self-start">
-                <a class="navbar-brand" href="http://www.telescopearray.org"><img src="images/TALogo_720WFC.gif" alt="TA-Logo"></a>
-            </div>
-            <div class="col-9 align-self-end">
-              <div class="container">
-                <div class="row align-items-end justify-content-around no-gutters navBtns">
-                  <div class="col-2">
-                    <button type="button" class="btn btn-outline-secondary mybtn">
-                      <a class="navlinks" href="html/Omega.html">Research Database<span
-                      class="sr-only">(current)</span></a>
-                    </button>
-                  </div>
-                  <div class="col-2">
-                    <div class="dropdown">
-                      <button type="button" class="btn btn-outline-secondary mybtn" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Search our Library</button>
-                      <div class="dropdown-menu" aria-labeledby="dropdownMenu2">
-                        <a class="dropdown-item navlinks" href="html/Phi.html">Search by Author</a>
-                        <a class="dropdown-item navlinks" href="html/Chi.html">Search by Journal</a>
-                        <a class="dropdown-item navlinks" href="html/Upsilon.html">Browse our Library</a>
-                      </div>
+<body>
+  <header style="padding-bottom:3em;">
+    <nav class="hidden-xs-down align-items-center">
+      <div class="container-fluid mynavbar">
+        <div class="row navbar stylish-color-dark no-gutters">
+          <div class="col-2 align-self-start">
+            <a class="navbar-brand" href="http://www.telescopearray.org"><img src="images/TALogo_720WFC.gif" alt="TA-Logo"></a>
+          </div>
+          <div class="col-9 align-self-end">
+            <div class="container">
+              <div class="row align-items-end justify-content-around no-gutters navBtns">
+                <div class="col-2">
+                  <button type="button" class="btn btn-outline-secondary mybtn">
+                    <a class="navlinks" href="html/Omega.html">Research Database<span class="sr-only">(current)</span></a>
+                  </button>
+                </div>
+                <div class="col-2">
+                  <div class="dropdown">
+                    <button type="button" class="btn btn-outline-secondary mybtn" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Search our Library</button>
+                    <div class="dropdown-menu" aria-labeledby="dropdownMenu2">
+                      <a class="dropdown-item navlinks" href="html/Phi.html">Search by Author</a>
+                      <a class="dropdown-item navlinks" href="html/Chi.html">Search by Journal</a>
+                      <a class="dropdown-item navlinks" href="html/Upsilon.html">Browse our Library</a>
                     </div>
                   </div>
-                  <div class="col-2">
-                    <button type="button" class="btn btn-outline-secondary waves-effect mybtn">
-                      <a class="navlinks"
-                    href="html/Tau.html">Meet the Authors</a>
-                    </button>
-                  </div>
-                  <div class="col-2">
-                    <button type="button" class="btn btn-outline-secondary waves-effect mybtn">
+                </div>
+                <div class="col-2">
+                  <button type="button" class="btn btn-outline-secondary waves-effect mybtn">
+                    <a class="navlinks" href="html/Tau.html">Meet the Authors</a>
+                  </button>
+                </div>
+                <div class="col-2">
+                  <button type="button" class="btn btn-outline-secondary waves-effect mybtn">
                     <a class="navlinks" href="http://www.telescopearray.org">Telescope Array</a>
-                    </button>
-                  </div>
-                  <div class="col-2">
-                    <button type="button" class="btn btn-outline-secondary waves-effect mybtn">
-                      <a class="navlinks" href="html/Sigma.html">Login</a>
-                    </button>
-                  </div>
+                  </button>
+                </div>
+                <div class="col-2">
+                  <button type="button" class="btn btn-outline-secondary waves-effect mybtn">
+                    <a class="navlinks" href="html/Sigma.html">Login</a>
+                  </button>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </nav>
-      <nav class="hidden-sm-up visible-sm-down">
-        <div class="container-fluid mynavbar justify-content-center col-12">
-          <div class="row stylish-color-dark phonenav no-gutters justify-content-center">
-            <div class="col-4 dropdown">
-              <div class="row justify-content-around no-gutters">
-                <button type="button" class="btn btn-outline-secondary mysmbtns"><a class="myicons1" href="Omega.html"><i class="fa fa-home" aria-hidden="true"></i></a></button>
-                <button type="button" class="btn btn-outline-default mysmbtns myicons2" id="phnavdd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-search" aria-hidden="true"></i></button>
-                <div class="dropdown-menu" aria-labeledby="phnavdd" style="padding-left:.1em;">
-                  <a href="html/Phi.html" class="myicons3"><i class="fa fa-user" aria-hidden="true"> Search by Author</i></a>
-                  <a href="html/Chi.html" class="myicons3"><i class="fa fa-book" aria-hidden="true"> Search by Journal</i></a>
-                  <a href="html/Upsilon.html" class="myicons3"><i class="fa fa-university" aria-hidden="true"> Browse our Library</i></a>
-                </div>
-              </div>
-            </div>
-            <div class="col-2 phoneicon">
-              <a class="img-responsive" href="http://www.telescopearray.org"><img src="images/TAlogoPhone.gif" alt="TA-Logo"></a>
-            </div>
-            <div class="col-4">
-              <div class="row justify-content-around no-gutters">
-                <button type="button" class="btn btn-outline-default mysmbtns"><a class="myicons2" href="Tau.html"><i class="fa fa-user" aria-hidden="true"></i></a></button>
-                <button type="button" class="btn btn-outline-secondary mysmbtns"><a  class="myicons1" href="Sigma.html"><i class="fa fa-rocket" aria-hidden="true"></i></a></button>
+      </div>
+    </nav>
+    <nav class="hidden-sm-up visible-sm-down">
+      <div class="container-fluid mynavbar justify-content-center col-12">
+        <div class="row stylish-color-dark phonenav no-gutters justify-content-center">
+          <div class="col-4 dropdown">
+            <div class="row justify-content-around no-gutters">
+              <button type="button" class="btn btn-outline-secondary mysmbtns">
+                <a class="myicons1" href="Omega.html">
+                  <i class="fa fa-home" aria-hidden="true"></i>
+                </a>
+              </button>
+              <button type="button" class="btn btn-outline-default mysmbtns myicons2" id="phnavdd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </button>
+              <div class="dropdown-menu" aria-labeledby="phnavdd" style="padding-left:.1em;">
+                <a href="html/Phi.html" class="myicons3">
+                  <i class="fa fa-user" aria-hidden="true">
+                    Search by Author</i>
+                </a>
+                <a href="html/Chi.html" class="myicons3">
+                  <i class="fa fa-book" aria-hidden="true">
+                    Search by Journal</i>
+                </a>
+                <a href="html/Upsilon.html" class="myicons3">
+                  <i class="fa fa-university" aria-hidden="true">
+                    Browse our Library</i>
+                </a>
               </div>
             </div>
           </div>
+          <div class="col-2 phoneicon">
+            <a class="img-responsive" href="http://www.telescopearray.org"><img src="images/TAlogoPhone.gif" alt="TA-Logo"></a>
+          </div>
+          <div class="col-4">
+            <div class="row justify-content-around no-gutters">
+              <button type="button" class="btn btn-outline-default mysmbtns">
+                <a class="myicons2" href="Tau.html">
+                  <i class="fa fa-user" aria-hidden="true"></i>
+                </a>
+              </button>
+              <button type="button" class="btn btn-outline-secondary mysmbtns">
+                <a class="myicons1" href="Sigma.html">
+                  <i class="fa fa-rocket" aria-hidden="true"></i>
+                </a>
+              </button>
+            </div>
+          </div>
         </div>
-      </nav>
-    </header>
-    <main>
-      <div class="container">
-        <div class="row justify-content-center">
-
-          <div class="col-xs-12 col-sm-12 col-lg-9" style="padding-top:2em;">
-            <div class="card z-depth-5 mycard-2 default-color">
-              <div class="card-block z-depth-3 hoverable">
-                <div class="view overlay hm-blue-slight">
-                  <div class="carousel slide carousel-fade" id="carousel-example-2" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                      <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
-                      <li data-target="#carousel-example-2" data-slide-to="1"></li>
-                      <li data-target="#carousel-example-2" data-slide-to="2"></li>
-                      <!-- Add more lines and associated carousel cards with all the photos in the carousel directory-->
-                    </ol>
-                    <div class="carousel-inner" role="listbox">
-                      <div class="carousel-item active">
-                        <div class="view hm-black-light">
-                          <img class="img-fluid" src="images/carousel/array17.jpg" alt="First slide">
-                        </div>
-                        <div class="carousel-caption">
-                          <h3 class="h3-responsive">Discription one</h3>
-                          <p>some more text</p>
-                        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="container mx-auto d-block">
+      <div class="row justify-content-center">
+        <div class="col-xs-12 col-sm-12 col-lg-12 justify-content-center">
+          <div class="card z-depth-5 mycard-2 default-color">
+            <div class="card-block z-depth-3 hoverable">
+              <div class="view overlay hm-blue-slight">
+                <div class="carousel slide carousel-fade" id="carousel-example-2" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-2" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-2" data-slide-to="2"></li>
+                    <!-- Add more lines and associated carousel cards with all the photos in the carousel directory-->
+                  </ol>
+                  <div class="carousel-inner col-lg-9 role=" listbox"="listbox"">
+                    <div class="carousel-item active">
+                      <div class="view hm-black-light photobox">
+                        <img class="img-thumbnail  float-left" src="images/carousel/array17.jpg" alt="First slide">
                       </div>
-                      <div class="carousel-item">
-                        <div class="view hm-black-light">
-                          <img class="img-fluid" src="images/carousel/31Scintillator1.png" alt="Second slide">
-                        </div>
-                        <div class="carousel-caption">
-                          <h3 class="h3-responsive">Discription two</h3>
-                          <p>some more text</p>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="view hm-black-light">
-                          <img class="img-fluid" src="images/carousel/ChronHeadline.png" alt="Third slide">
-                        </div>
-                        <div class="carousel-caption">
-                          <h3 class="h3-responsive">Discription three</h3>
-                          <p>some more text</p>
-                        </div>
+                      <div class="carousel-caption">
+                        <h3 class="h3-responsive">Discription one</h3>
+                        <p>some more text</p>
                       </div>
                     </div>
-                    <a class="carousel-control-prev"href="#carousel-example-2" role="button" data-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Previous</span>
-                    </a>
-                    <a href="#carousel-example-2" class="carousel-control-next" role="button" data-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Next</span>
-                    </a>
+                    <div class="carousel-item">
+                      <div class="view hm-black-light photobox">
+                        <img class="img-fluid float-left" src="images/carousel/31Scintillator1.png" alt="Second slide">
+                      </div>
+                      <div class="carousel-caption">
+                        <h3 class="h3-responsive">Discription two</h3>
+                        <p>some more text</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="view hm-black-light photobox">
+                        <img class="img-fluid  float-left" src="images/carousel/ChronHeadline.png" alt="Third slide">
+                      </div>
+                      <div class="carousel-caption">
+                        <h3 class="h3-responsive">Discription three</h3>
+                        <p>some more text</p>
+                      </div>
+                    </div>
                   </div>
+                  <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a href="#carousel-example-2" class="carousel-control-next" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
-
         </div>
-        <div class="row justify-content-between">
-
-          <div class="col-md-12 col-lg-6 align-self-start align-items-center" style="padding-top:2em; height:3em;">
+      </div>
+      <div class="container">
+        <div class="row justify-content-between clearfix">
+          <div class="col-md-12 col-lg-6 float-left">
             <div class="col-12">
               <div class="card z-depth-5 mycard-1 yellow lighten-3">
                 <div class="card-block z-depth-3 hoverable">
@@ -168,8 +188,7 @@
               </div>
             </div>
           </div>
-
-          <div class="col-md-12 col-lg-6 align-self-end align-items-center" style="padding-top:2em; height:3em;">
+          <div class="col-md-12 col-lg-6 float-right">
             <div class="col-12">
               <div class="card z-depth-5 mycard-1 secondary-color">
                 <div class="card-block z-depth-3 hoverable">
@@ -183,21 +202,21 @@
               </div>
             </div>
           </div>
-
         </div>
       </div>
-    </main>
-    <footer></footer>
+    </div>
+  </main>
+  <footer></footer>
 
-    <!-- SCRIPTS -->
-    <!-- JQuery -->
-    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-    <!-- Bootstrap tooltips -->``
-    <script type="text/javascript" src="js/tether.min.js"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="js/mdb.min.js"></script>
-    </body>
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+  <!-- Bootstrap tooltips -->``
+  <script type="text/javascript" src="js/tether.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+</body>
 
-    </html>
+</html>
