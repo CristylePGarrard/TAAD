@@ -34,12 +34,14 @@ a.navlinks {
   color: #fff59d !important;
 }
 .dropdown-menu {
-  background-color: #4B515D;
+    background-color: #4B515D;
+    left: -15px;
 }
+
 a.dropdown-item {
-  color: #2BBBAD;
-  white-space: normal;
-  font-size: .8rem;
+    color: #2BBBAD;
+    white-space: normal;
+    font-size: .8rem;
 }
 .navBtns {
   padding-top: 1rem;
