@@ -19,9 +19,9 @@
   </head>
   <body>
     <header style="padding-bottom:3em;">
-      <nav class="hidden-xs-down">
+      <nav class="hidden-xs-down align-items-center">
         <div class="container-fluid mynavbar">
-          <div class="row navbar stylish-color-dark align-items-end no-gutters justify-content-between">
+          <div class="row navbar stylish-color-dark no-gutters">
             <div class="col-2 align-self-start">
               <a class="navbar-brand" href="http://www.telescopearray.org"><img src="../images/TALogo_720WFC.gif" alt="TA-Logo"></a>
             </div>
@@ -30,22 +30,22 @@
                 <div class="row align-items-end justify-content-around no-gutters navBtns">
                   <div class="col-2">
                     <button type="button" class="btn btn-outline-secondary mybtn">
-                      <a class="navlinks" href="Omega.html">Research Database<span class="sr-only">(current)</span></a>
+                      <a class="navlinks" href="../html/Omega.html">Research Database<span class="sr-only">(current)</span></a>
                     </button>
                   </div>
-                  <div class="col-2">
+                  <div class="col-2 justify-content-start">
                     <div class="dropdown">
                       <button type="button" class="btn btn-outline-secondary mybtn" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Search our Library</button>
                       <div class="dropdown-menu" aria-labeledby="dropdownMenu2">
-                        <a class="dropdown-item navlinks" href="Phi.html">Search by Author</a>
-                        <a class="dropdown-item navlinks" href="Chi.html">Search by Journal</a>
-                        <a class="dropdown-item navlinks" href="Upsilon.html">Browse our Library</a>
+                        <a class="dropdown-item navlinks" href="../html/Phi.html">Search by Author</a>
+                        <a class="dropdown-item navlinks" href="../html/Chi.html">Search by Journal</a>
+                        <a class="dropdown-item navlinks" href="../html/Upsilon.html">Browse our Library</a>
                       </div>
                     </div>
                   </div>
                   <div class="col-2">
                     <button type="button" class="btn btn-outline-secondary waves-effect mybtn">
-                      <a class="navlinks" href="Tau.html">Meet the Authors</a>
+                      <a class="navlinks" href="../html/Tau.html">Meet the Authors</a>
                     </button>
                   </div>
                   <div class="col-2">
@@ -55,7 +55,7 @@
                   </div>
                   <div class="col-2">
                     <button type="button" class="btn btn-outline-secondary waves-effect mybtn">
-                      <a class="navlinks" href="Sigma.html">Login</a>
+                      <a class="navlinks" href="../html/Sigma.html">Login</a>
                     </button>
                   </div>
                 </div>
@@ -70,41 +70,41 @@
             <div class="col-4 dropdown">
               <div class="row justify-content-around no-gutters">
                 <button type="button" class="btn btn-outline-secondary mysmbtns">
-                  <a class="myicons1" href="Omega.html">
+                  <a class="myicons1" href="../html/Omega.html">
                     <i class="fa fa-home" aria-hidden="true"></i>
                   </a>
                 </button>
                 <button type="button" class="btn btn-outline-default mysmbtns myicons2" id="phnavdd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <i class="fa fa-search" aria-hidden="true"></i>
                 </button>
-                <div class="dropdown-menu" aria-labeledby="phnavdd" style="padding-left:.1em;">
-                  <a href="Phi.html" class="myicons3">
+                <div class="dropdown-menu" aria-labeledby="phnavdd">
+                  <a href="../html/Phi.html" class="myicons3">
                     <i class="fa fa-user" aria-hidden="true">
-                      Search by Author</i>
+                      Search -> Author</i>
                   </a>
-                  <a href="Chi.html" class="myicons3">
+                  <a href="../html/Chi.html" class="myicons3">
                     <i class="fa fa-book" aria-hidden="true">
-                      Search by Journal</i>
+                      Search -> Journal</i>
                   </a>
-                  <a href="Upsilon.html" class="myicons3">
+                  <a href="../html/Upsilon.html" class="myicons3">
                     <i class="fa fa-university" aria-hidden="true">
-                      Browse our Library</i>
+                      Browse Library</i>
                   </a>
                 </div>
               </div>
             </div>
             <div class="col-2 phoneicon">
-              <a class="img-responsive" href="http://www.telescopearray.org"><img src="../images/TAlogoPhone.gif" alt="TA-Logo"></a>
+              <a class="img-responsive" href="http://www.telescopearray.org"><img src="../images/TAphoneLogo.png" alt="TA-Logo"></a>
             </div>
             <div class="col-4">
               <div class="row justify-content-around no-gutters">
                 <button type="button" class="btn btn-outline-default mysmbtns">
-                  <a class="myicons2" href="Tau.html">
+                  <a class="myicons2" href="../html/Tau.html">
                     <i class="fa fa-user" aria-hidden="true"></i>
                   </a>
                 </button>
                 <button type="button" class="btn btn-outline-secondary mysmbtns">
-                  <a class="myicons1" href="Sigma.html">
+                  <a class="myicons1" href="../html/Sigma.html">
                     <i class="fa fa-rocket" aria-hidden="true"></i>
                   </a>
                 </button>
@@ -128,7 +128,7 @@
                           <div class="row align-items-center justify-content-center">
                             <div class="card text-center unique-color-dark">
                               <div class="card-block">
-                                <button type="button" class="btn btn-outline-default waves-effect mybtn2" data-toggle="modal" data-target="#SAMright">Search by Author</button>
+                                <button type="button" class="btn btn-outline-default waves-effect mybtn2" data-toggle="modal" data-target="#SAMright">Author Quickview</button>
                                 <div class="modal fade right text-right" id="SAMright" tabindex="-1" role="dialog" aria-labeledby="myModalLabel" aria-hidden="true">
                                   <div class="modal-dialog modal-full-height modal-right" role="document">
                                     <!--Search by Author Modal///-->
@@ -137,10 +137,10 @@
                                         <div class=" row align-items-end">
                                           <div class="col-9">
                                             <div class="row justify-content-around">
-                                              <div class="col-4 dropdown">
+                                              <div class="col-4 dropdown fltrdd">
                                                 <button type="button" class="btn btn-secondary
-                                                waves-effect modal-btn" id="MSADD3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Journal</button>
-                                                <div class="dropdown-menu dropdown-menu-center mydd" aria-labeledby="MSADD3">
+                                                waves-effect modal-btn" id="MSADD2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Journal </button>
+                                                <div class="dropdown-menu dropdown-menu-center mydd" aria-labeledby="MSADD2">
                                                   <table>
                                                     <tbody>
                                                       <tr>
@@ -198,7 +198,7 @@
                                                   </table>
                                                 </div>
                                               </div>
-                                              <div class="col-4 dropdown">
+                                              <div class="col-4 dropdown fltrdd">
                                                 <button type="button" class="btn btn-default waves-effect modal-btn" id="MSADD2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Year</button>
                                                 <div class="dropdown-menu dropdown-menu-center mydd" aria-labeledby="MSADD2">
                                                   <table>
@@ -277,10 +277,6 @@
                                                               <i class="fa
                                                                   fa-file-pdf-o" aria-hidden="true"></i>
                                                             </a>
-                                                            <a target="_blank" href="#" class="colVSAM waves">
-                                                              <i class="fa
-                                                                  fa-download" aria-hidden="true"></i>
-                                                            </a>
                                                           </td>
                                                         </tr>
                                                         <tr>
@@ -296,9 +292,6 @@
                                                               <i class="fa
                                                                   fa-file-pdf-o" aria-hidden="true"></i>
                                                             </a>
-                                                            <a target="_blank" href="#" class="colVSAM">
-                                                              <i class="fa fa-download" aria-hidden="true"></i>
-                                                            </a>
                                                           </td>
                                                         </tr>
                                                         <tr>
@@ -312,9 +305,6 @@
                                                             </a>
                                                             <a class="colVSAM">
                                                               <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
-                                                            </a>
-                                                            <a target="_blank" href="" class="colVSAM">
-                                                              <i class="fa fa-download" aria-hidden="true"></i>
                                                             </a>
                                                           </td>
                                                         </tr>
@@ -352,10 +342,6 @@
                                                               <i class="fa
                                                                 fa-file-pdf-o" aria-hidden="true"></i>
                                                             </a>
-                                                            <a target="_blank" href="#" class="colVSAM">
-                                                              <i class="fa
-                                                                fa-download" aria-hidden="true"></i>
-                                                            </a>
                                                           </td>
                                                         </tr>
                                                         <tr>
@@ -371,9 +357,6 @@
                                                               <i class="fa
                                                                 fa-file-pdf-o" aria-hidden="true"></i>
                                                             </a>
-                                                            <a target="_blank" href="#" class="colVSAM">
-                                                              <i class="fa fa-download" aria-hidden="true"></i>
-                                                            </a>
                                                           </td>
                                                         </tr>
                                                         <tr>
@@ -386,9 +369,6 @@
                                                             </a>
                                                             <a target="_blank" href="#" class="colVSAM">
                                                               <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
-                                                            </a>
-                                                            <a target="_blank" href="#" class="colVSAM">
-                                                              <i class="fa fa-download" aria-hidden="true"></i>
                                                             </a>
                                                           </td>
                                                         </tr>
@@ -426,9 +406,6 @@
                                                               <i class="fa
                                                                 fa-file-pdf-o" aria-hidden="true"></i>
                                                             </a>
-                                                            <a target="_blank" href="#" class="colVSAM">
-                                                              <i class="fa fa-download" aria-hidden="true"></i>
-                                                            </a>
                                                           </td>
                                                         </tr>
                                                         <tr>
@@ -444,9 +421,6 @@
                                                               <i class="fa
                                                                 fa-file-pdf-o" aria-hidden="true"></i>
                                                             </a>
-                                                            <a target="_blank" href="#" class="colVSAM">
-                                                              <i class="fa fa-download" aria-hidden="true"></i>
-                                                            </a >
                                                           </td>
                                                         </tr>
                                                         <tr>
@@ -459,9 +433,6 @@
                                                             </a>
                                                             <a target="_blank" href="https://journals.aps.org/prl/pdf/10.1103/PhysRevLe..." class="colVSAM">
                                                               <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
-                                                            </a>
-                                                            <a target="_blank" href="#" class="colVSAM">
-                                                              <i class="fa fa-download" aria-hidden="true"></i>
                                                             </a>
                                                           </td>
                                                         </tr>
@@ -476,9 +447,6 @@
                                                             </a>
                                                             <a target="_blank" href="http://www.sciencedirect.com.ezproxy.lib.utah.edu/science/article/pii/S0927650599000870" class="colVSAM">
                                                               <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
-                                                            </a>
-                                                            <a target="_blank" href="#" class="colVSAM">
-                                                              <i class="fa fa-download" aria-hidden="true"></i>
                                                             </a>
                                                           </td>
                                                         </tr>
@@ -505,8 +473,7 @@
                                           </div>
                                         </div>
                                       </div>
-                                    </div>
-                                    <!--///Search by Author Modal-->
+                                    </div><!--///Search by Author Modal-->
                                   </div>
                                 </div>
                               </div>
@@ -517,7 +484,7 @@
                           <div class="row align-items-center justify-content-center">
                             <div class="card text-center unique-color-dark">
                               <div class="card-block">
-                                <button type="button" class="btn btn-outline-default waves-effect mybtn2" data-toggle="modal" data-target="#STMright">Search by Title</button>
+                                <button type="button" class="btn btn-outline-default waves-effect mybtn2" data-toggle="modal" data-target="#STMright">Title QuickView</button>
                                 <div class="modal fade right text-right" id="STMright" tabindex="-1" role="dialog" aria-labeledby="myModalLabel" aria-hidden="true">
                                   <div class="modal-dialog modal-full-height modal-right" role="document">
                                     <!--Search by Title Modal///-->
@@ -527,56 +494,105 @@
                                           <div class="col-9">
                                             <div class="row justify-content-around">
                                               <div class="col-4 dropdown">
-                                                <button type="button" class="btn btn-secondary waves-effect modal-btn2" id="TbLcHi-sm1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Author</button>
-                                                <div class="dropdown-menu dropdown-menu-center" aria-labeledby="TbLcHi-sm1">
-                                                  <ul>
-                                                    <li class="dropdown-item text-white">C Song</li>
-                                                    <li class="dropdown-item text-white">
-                                                      R W Springer</li>
-                                                    <li class="dropdown-item text-white">
-                                                      B T Stokes</li>
-                                                    <li class="dropdown-item text-white">
-                                                      S R Stratton</li>
-                                                    <li class="dropdown-item text-white">
-                                                      G L Cassiday</li>
-                                                    <li class="dropdown-item text-white">
-                                                      R Baltrusaitis</li>
-                                                    <li class="dropdown-item text-white">
-                                                      R U Abbasi</li>
-                                                    <li class="dropdown-item text-white">
-                                                      Lawrence R Wiencke</li>
-                                                  </ul>
+                                                <button type="button" class="btn btn-secondary waves-effect modal-btn" id="TbLcHi-sm1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Author</button>
+                                                <div class="dropdown-menu dropdown-menu-center mydd" aria-labeledby="TbLcHi-sm1">
+                                                  <table>
+                                                    <tbody>
+                                                      <tr>
+                                                        <td class="ddlink">C Song</td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td class="ddlink">R W Springer</td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td class="ddlink">B T Stokes</td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td class="ddlink">S R Stratton</td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td class="ddlink">G L Cassiday</td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td class="ddlink">R Baltrusaitis</td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td class="ddlink">R U Abbasi</td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td class="ddlink">Lawrence R Wiencke</td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
                                                 </div>
                                               </div>
                                               <div class="col-4 dropdown">
-                                                <button type="button" class="btn btn-default waves-effect modal-btn2" id="TbLcHi-sm2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Year</button>
-                                                <div class="dropdown-menu dropdown-menu-center" aria-labeledby="TbLcHi-sm2">
-                                                  <ul>
-                                                    <li class="dropdown-item text-white">2017</li>
-                                                    <li class="dropdown-item text-white">2016</li>
-                                                    <li class="dropdown-item text-white">2015</li>
-                                                    <li class="dropdown-item text-white">2014</li>
-                                                    <li class="dropdown-item text-white">2013</li>
-                                                    <li class="dropdown-item text-white">2012</li>
-                                                    <li class="dropdown-item text-white">2011</li>
-                                                    <li class="dropdown-item text-white">2010</li>
-                                                  </ul>
+                                                <button type="button" class="btn btn-default waves-effect modal-btn" id="TbLcHi-sm2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Year</button>
+                                                <div class="dropdown-menu dropdown-menu-center mydd" aria-labeledby="TbLcHi-sm2">
+                                                  <table>
+                                                    <tbody>
+                                                      <tr>
+                                                        <td class="ddlink">2017</td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td class="ddlink">2016</td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td class="ddlink">2015</td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td class="ddlink">2014</td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td class="ddlink">2013</td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td class="ddlink">2012</td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td class="ddlink">2011</td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td class="ddlink">2010</td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
                                                 </div>
                                               </div>
                                               <div class="col-4 dropdown">
-                                                <button type="button" class="btn btn-secondary waves-effect modal-btn2" id="MSADD3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Journal</button>
-                                                <div class="dropdown-menu dropdown-menu-center" aria-labeledby="MSADD3">
-                                                  <ul>
-                                                    <li class="dropdown-item text-white">Astroparticle Physics</li>
-                                                    <li class="dropdown-item text-white">Physical Review Letters</li>
-                                                    <li class="dropdown-item text-white">Astrophysical Journal Letters</li>
-                                                    <li class="dropdown-item text-white">Astroparticle Physics: High Energy</li>
-                                                    <li class="dropdown-item text-white">30TH INTERNATIONAL COSMIC RAY CONFERENCE</li>
-                                                    <li class="dropdown-item text-white">J. Phys. G: Nucl. Phys</li>
-                                                    <li class="dropdown-item text-white">Journal of Geophysical Research</li>
-                                                    <li class="dropdown-item text-white">Journal of Physics G: Nuclear and Particle Physics</li>
-                                                    <li class="dropdown-item text-white">Nuclear Instruments and Methods in Physics Research A</li>
-                                                  </ul>
+                                                <button type="button" class="btn btn-secondary waves-effect modal-btn" id="MSADD3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Journal</button>
+                                                <div class="dropdown-menu dropdown-menu-center mydd" aria-labeledby="MSADD3">
+                                                  <table>
+                                                    <tbody>
+                                                      <tr>
+                                                        <td class="ddlink">Astroparticle Physics</td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td class="ddlink">Physical Review Letters</td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td class="ddlink">Astrophysical Journal Letters</td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td class="ddlink">Astroparticle Physics: High Energy</td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td class="ddlink">30TH INTERNATIONAL COSMIC RAY CONFERENCE</td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td class="ddlink">J. Phys. G: Nucl. Phys</td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td class="ddlink">Journal of Geophysical Research</td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td class="ddlink">Journal of Physics G: Nuclear and Particle Physics</td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td class="ddlink">Nuclear Instruments and Methods in Physics Research A</td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
                                                 </div>
                                               </div>
                                             </div>
@@ -609,10 +625,6 @@
                                                       <i class="fa
                                                                                                 fa-file-pdf-o" aria-hidden="true"></i>
                                                     </a>
-                                                    <a target="_blank" href="#" class="btn btn-default waves-effect">
-                                                      <i class="fa
-                                                                                                fa-download" aria-hidden="true"></i>
-                                                    </a>
                                                   </div>
                                                 </div>
                                               </td>
@@ -631,10 +643,6 @@
                                                       <i class="fa
                                                                 fa-file-pdf-o" aria-hidden="true"></i>
                                                     </a>
-                                                    <a target="_blank" href="#" class="btn btn-default waves-effect">
-                                                      <i class="fa
-                                                                fa-download" aria-hidden="true"></i>
-                                                    </a>
                                                   </div>
                                                 </div>
                                               </td>
@@ -651,10 +659,6 @@
                                                     <a target="_blank" href="#" class="btn btn-secondary waves-effect">
                                                       <i class="fa
                                                                 fa-file-pdf-o" aria-hidden="true"></i>
-                                                    </a>
-                                                    <a target="_blank" href="#" class="btn btn-default waves-effect">
-                                                      <i class="fa
-                                                                fa-download" aria-hidden="true"></i>
                                                     </a>
                                                   </div>
                                                 </div>
@@ -673,10 +677,6 @@
                                                       <i class="fa
                                                                 fa-file-pdf-o" aria-hidden="true"></i>
                                                     </a>
-                                                    <a target="_blank" href="#" class="btn btn-default waves-effect">
-                                                      <i class="fa
-                                                                fa-download" aria-hidden="true"></i>
-                                                    </a>
                                                   </div>
                                                 </div>
                                               </td>
@@ -693,10 +693,6 @@
                                                     <a target="_blank" href="#" class="btn btn-secondary waves-effect">
                                                       <i class="fa
                                                                 fa-file-pdf-o" aria-hidden="true"></i>
-                                                    </a>
-                                                    <a target="_blank" href="#" class="btn btn-default waves-effect">
-                                                      <i class="fa
-                                                                fa-download" aria-hidden="true"></i>
                                                     </a>
                                                   </div>
                                                 </div>
@@ -730,8 +726,7 @@
                       <div class="row align-items-center justify-content-center">
                         <div class="card text-center unique-color-dark">
                           <div class="card-block">
-                            <button type="button" class="btn btn-outline-default waves-effect mybtn2" data-toggle="modal" data-target="#SJMright">
-                              Search By Journal</button>
+                            <button type="button" class="btn btn-outline-default waves-effect mybtn2" data-toggle="modal" data-target="#SJMright">Journal Quickview</button>
                             <div class="modal fade right text-right" id="SJMright" tabindex="-1" role="dialog" aria-labeledby="myModalLabel" aria-hidden="true">
                               <div class="modal-dialog modal-full-height modal-right" role="document">
                                 <!--Search Journal Modal///-->
@@ -741,42 +736,80 @@
                                       <div class="col-9">
                                         <div class="row justify-content-around">
                                           <div class="col-4 dropdown">
-                                            <button type="button" class="btn btn-secondary waves-effect modal-btn" id="MSADD3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Author</a>
+                                            <button type="button" class="btn btn-secondary waves-effect modal-btn" id="MSADD1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Author</a>
                                           </button>
-                                          <div class="dropdown-menu dropdown-menu-center" aria-labeledby="MSADD3">
-                                            <ul>
-                                              <li class="dropdown-item text-white">C Song</li>
-                                              <li class="dropdown-item text-white">
-                                                R W Springer</li>
-                                              <li class="dropdown-item text-white">
-                                                B T Stokes</li>
-                                              <li class="dropdown-item text-white">
-                                                S R Stratton</li>
-                                              <li class="dropdown-item text-white">
-                                                G L Cassiday</li>
-                                              <li class="dropdown-item text-white">
-                                                R Baltrusaitis</li>
-                                              <li class="dropdown-item text-white">
-                                                R U Abbasi</li>
-                                              <li class="dropdown-item text-white">
-                                                Lawrence R Wiencke</li>
-                                            </ul>
+                                          <div class="dropdown-menu dropdown-menu-center mydd" aria-labeledby="MSADD1">
+                                            <table>
+                                              <tbody>
+                                                <tr>
+                                                  <td class="ddlink">C Song</td>
+                                                </tr>
+                                                <tr>
+                                                  <td class="ddlink">R W Springer</td>
+                                                </tr>
+                                                <tr>
+                                                  <td class="ddlink">B T Stokes</td>
+                                                </tr>
+                                                <tr>
+                                                  <td class="ddlink">S R Stratton</td>
+                                                </tr>
+                                                <tr>
+                                                  <td class="ddlink">G L Cassiday</td>
+                                                </tr>
+                                                <tr>
+                                                  <td class="ddlink">R Baltrusaitis</td>
+                                                </tr>
+                                                <tr>
+                                                  <td class="ddlink">R U Abbasi</td>
+                                                </tr>
+                                                <tr>
+                                                  <td class="ddlink">Lawrence R Wiencke</td>
+                                                </tr>
+                                                <tr>
+                                                  <td class="ddlink">John Matthews</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
                                           </div>
                                           </div>
                                           <div class="col-4 dropdown">
                                             <button type="button" class="btn btn-default waves-effect modal-btn" id="MSADD2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Year</a>
                                           </button>
-                                          <div class="dropdown-menu dropdown-menu-center" aria-labeledby="MSADD2">
-                                            <ul>
-                                              <li class="dropdown-item text-white">2017</li>
-                                              <li class="dropdown-item text-white">2016</li>
-                                              <li class="dropdown-item text-white">2015</li>
-                                              <li class="dropdown-item text-white">2014</li>
-                                              <li class="dropdown-item text-white">2013</li>
-                                              <li class="dropdown-item text-white">2012</li>
-                                              <li class="dropdown-item text-white">2011</li>
-                                              <li class="dropdown-item text-white">2010</li>
-                                            </ul>
+                                          <div class="dropdown-menu dropdown-menu-center mydd" aria-labeledby="MSADD2">
+                                            <table>
+                                              <tbody>
+                                                <tr>
+                                                  <td class="ddlink">2018</td>
+                                                </tr>
+                                                <tr>
+                                                  <td class="ddlink">2017</td>
+                                                </tr>
+                                                <tr>
+                                                  <td class="ddlink">2016</td>
+                                                </tr>
+                                                <tr>
+                                                  <td class="ddlink">2015</td>
+                                                </tr>
+                                                <tr>
+                                                  <td class="ddlink">2014</td>
+                                                </tr>
+                                                <tr>
+                                                  <td class="ddlink">2013</td>
+                                                </tr>
+                                                <tr>
+                                                  <td class="ddlink">2012</td>
+                                                </tr>
+                                                <tr>
+                                                  <td class="ddlink">2011</td>
+                                                </tr>
+                                                <tr>
+                                                  <td class="ddlink">2010</td>
+                                                </tr>
+                                                <tr>
+                                                  <td class="ddlink">2009</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
                                           </div>
                                         </div>
                                       </div>
@@ -820,57 +853,43 @@
                                                       <a target="_blank" href="https://journals.aps.org/prl/pdf/10.1103/PhysRevLe..." class="colVSAM">
                                                         <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
                                                       </a>
-                                                      <a target="_blank" href="/Users/cristylegarrard/Desktop/Telescope Array/MDBtaWebSite/Images/Pdf/Articles/Journals/PhysicalReviewLetters/2010/Indications_of_Proton-Dominate.pdf" class="colVSAM">
-                                                        <i class="fa fa-download" aria-hidden="true"></i>
-                                                      </a>
                                                     </td>
                                                   </tr>
                                                   <tr>
-                                                    <td class="colVSAM">
-                                                      <a target="_blank" href="/Users/cristylegarrard/Desktop/Telescope Array/MDBtaWebSite/Images/Pdf/Articles/Journals/PhysicalReviewLetters/2008/First_Observation_of_the.pdf" class="colVSAM">First Observation of the Greisen-Zatsepin-Kuzmin Suppression</a>
-                                                    </td>
-                                                    <td class="colVSAM">
-                                                      <a href="#" class="colVSAM">
-                                                        <i class="fa fa-book" aria-hidden="true"></i>
-                                                      </a>
-                                                      <a class="colVSAM">
-                                                        <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
-                                                      </a>
-                                                      <a target="_blank" href="/Users/cristylegarrard/Desktop/Telescope Array/MDBtaWebSite/Images/Pdf/Articles/Journals/PhysicalReviewLetters/2008/First_Observation_of_the.pdf" class="colVSAM">
-                                                        <i class="fa fa-download" aria-hidden="true"></i>
-                                                      </a>
+                                                    <td class="colVSAM"><a target="_blank" href="/Users/cristylegarrard/Desktop/Telescope Array/MDBtaWebSite/Images/Pdf/Articles/Journals/PhysicalReviewLetters/2008/First_Observation_of_the.pdf" class="colVSAM">First Observation of the Greisen-Zatsepin-Kuzmin Suppression</a></td>
+                                                    <td class="colVSAM"><a href="#" class="colVSAM"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                                      <a class="colVSAM"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
                                                     </td>
                                                   </tr>
                                                 </tbody>
                                               </table>
+                                            </div>
                                           </div>
-                                        </div>
-                                      </td>
-                                    </tr>
+                                        </td>
+                                      </tr>
                                     <tr>
                                       <td>
                                         <a class="btn SAM btn-block waves-effect" data-toggle="collapse" href="#J2" aria-expanded="false" aria-controls="J2">Nuclear Instruments and Methods in Physics Research A</a>
-                                        <div class="collapse" id="J2">
-                                          <div class="col-12">
-                                            <table class="table table-hover table-sm mytableS">
-                                              <thead class="mytablehead">
-                                                <tr class="justify-content-center">
-                                                  <th class="colTSAM">Title</th>
-                                                  <th class="colTSAM">View</th>
-                                                </tr>
-                                              </thead>
-                                              <tbody>
-                                                <tr>
-                                                  <td class="colVSAM"><a target="_blank" href="https://doi.org/10.1016/S0168-9002(99)00164-3" class="colVSAM">Radio-controlled xenon #ashers for atmospheric monitoring at the HiRes cosmic ray observatory</a></td>
-                                                  <td class="colVSAM"><a target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0168900299001643" class="colVSAM waves"><i class="fa
-                                                                fa-book" aria-hidden="true"></i></a><a target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0168900299001643/pdfft?md5=60622cbd37278b5425242a2933b18202&pid=1-s2.0-S0168900299001643-main.pdf" class="colVSAM waves"><i class="fa
-                                                                fa-file-pdf-o" aria-hidden="true"></i></a><a href="/Users/cristylegarrard/Desktop/Telescope Array/MDBtaWebSite/Images/Pdf/Articles/Journals/Nuclear_Instruments_and_Methods_in_physics/1999/Radio-controlled_xenon_flashers.pdf" class="colVSAM waves"><i class="fa
-                                                                fa-download" aria-hidden="true"></i></a></td>
-                                                </tr>
-                                              </tbody>
-                                            </table>
-                                          </div>
+                                      <div class="collapse" id="J2">
+                                        <div class="col-12">
+                                          <table class="table table-hover table-sm mytableS">
+                                            <thead class="mytablehead">
+                                              <tr class="justify-content-center">
+                                                <th class="colTSAM">Title</th>
+                                                <th class="colTSAM">View</th>
+                                              </tr>
+                                            </thead>
+                                            <tbody>
+                                              <tr>
+                                                <td class="colVSAM"><a target="_blank" href="https://doi.org/10.1016/S0168-9002(99)00164-3" class="colVSAM">Radio-controlled xenon #ashers for atmospheric monitoring at the HiRes cosmic ray observatory</a></td>
+                                                <td class="colVSAM"><a target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0168900299001643" class="colVSAM waves"><i class="fa
+                                                              fa-book" aria-hidden="true"></i></a><a target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0168900299001643/pdfft?md5=60622cbd37278b5425242a2933b18202&pid=1-s2.0-S0168900299001643-main.pdf" class="colVSAM waves"><i class="fa
+                                                              fa-file-pdf-o" aria-hidden="true"></i></a></td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
                                         </div>
+                                      </div>
                                     </td>
                                   </tr>
                                   <tr>
@@ -894,12 +913,6 @@
                                                 <td class="colVSAM">
                                                   <a target="_blank" href="#" class="colVSAM">
                                                     <i class="fa fa-book" aria-hidden="true"></i>
-                                                  </a>
-                                                  <a target-"_blank"="target-" _blank""="_blank""" href="#" class="colVSAM">
-                                                    <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
-                                                  </a>
-                                                  <a target="_blank" href="/Users/cristylegarrard/Desktop/Telescope Array/MDBtaWebSite/Images/Pdf/Articles/Journals/AstroParTiclEPhySics/1999/Geometrical_Reconstruction.pdf" class="colVSAM">
-                                                    <i class="fa fa-download" aria-hidden="true"></i>
                                                   </a>
                                                 </td>
                                               </tr>
@@ -936,10 +949,6 @@
                                                     <i class="fa
                                                               fa-file-pdf-o" aria-hidden="true"></i>
                                                   </a>
-                                                  <a target="_blank" href="/Users/cristylegarrard/Desktop/Telescope Array/MDBtaWebSite/Images/Pdf/Articles/Journals/JournaLofGeophysicalResearch/1996/Auroral_N2_Emissions.pdf" class="colVSAM">
-                                                    <i class="fa
-                                                              fa-download" aria-hidden="true"></i>
-                                                  </a>
                                                 </td>
                                               </tr>
                                             </tbody>
@@ -972,9 +981,6 @@
                                                   <a target="_blank" href="http://articles.adsabs.harvard.edu/cgi-bin/nph-iarticle_query?1985ApJ...293L..69B&amp;data_type=PDF_HIGH&amp;whole_paper=YES&amp;type=PRINTER&amp;filetype=.pdf" class="colVSAM">
                                                     <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
                                                   </a>
-                                                  <a target="_blank" href="/Users/cristylegarrard/Desktop/Telescope Array/MDBtaWebSite/Images/Pdf/Articles/Journals/TheAstrophysicalJournal/1985/EVIDENCE_FOR_500_TeV.pdf" class="colVSAM">
-                                                    <i class="fa fa-download" aria-hidden="true"></i>
-                                                  </a>
                                                 </td>
                                               </tr>
                                               <tr>
@@ -989,9 +995,6 @@
                                                   <a target="_blank" href="http://articles.adsabs.harvard.edu/cgi-bin/nph-iarticle_query?1990ApJ...356..669C&amp;data_type=PDF_HIGH&amp;whole_paper=YES&amp;type=PRINTER&amp;filetype=.pdf" class="colVSAM">
                                                     <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
                                                   </a>
-                                                  <a target="_blank" href="/Users/cristylegarrard/Desktop/Telescope Array/MDBtaWebSite/Images/Pdf/Articles/Journals/TheAstrophysicalJournal/1990/Measurements_of_Cosmic-Ray.pdf" class="colVSAM">
-                                                    <i class="fa fa-download" aria-hidden="true"></i>
-                                                  </a>
                                                 </td>
                                               </tr>
                                               <tr>
@@ -1004,9 +1007,6 @@
                                                   </a>
                                                   <a target="_blank" href="http://articles.adsabs.harvard.edu/cgi-bin/nph-iarticle_query?1990ApJ...351..454C&amp;data_type=PDF_HIGH&amp;whole_paper=YES&amp;type=PRINTER&amp;filetype=.pdf" class="colVSAM">
                                                     <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
-                                                  </a>
-                                                  <a target="_blank" href="/Users/cristylegarrard/Desktop/Telescope Array/MDBtaWebSite/Images/Pdf/Articles/Journals/TheAstrophysicalJournal/1990/A_Course-Grain_Search.pdf" class="colVSAM">
-                                                    <i class="fa fa-download" aria-hidden="true"></i>
                                                   </a>
                                                 </td>
                                               </tr>
@@ -1021,9 +1021,6 @@
                                                   </a>
                                                   <a target="_blank" href="http://articles.adsabs.harvard.edu/cgi-bin/nph-iarticle_query?1987ApJ...323..685B&amp;data_type=PDF_HIGH&amp;whole_paper=YES&amp;type=PRINTER&amp;filetype=.pdf" class="colVSAM">
                                                     <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
-                                                  </a>
-                                                  <a target="_blank" href="/Users/cristylegarrard/Desktop/Telescope Array/MDBtaWebSite/Images/Pdf/Articles/Journals/TheAstrophysicalJournal/1987/Sporadic_and_Periodic.pdf" class="colVSAM">
-                                                    <i class="fa fa-download" aria-hidden="true"></i>
                                                   </a>
                                                 </td>
                                               </tr>
