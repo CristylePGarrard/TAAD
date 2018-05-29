@@ -237,3 +237,14 @@ td.ddlink:hover {
 .main1 {
   padding-right: 7rem !important;
 }
+
+/* Upsilon.html modal "Search by Title" author and year dropdown lists hover background color*/
+
+
+/* Upsilon.html modal "Search by Journal" author and year dropdown lists hover background color*/
+
+.dp-hoveropac li:hover,
+.dp-hoveropac li:focus {
+    background-color: rgba(29,30,31,0.4);
+}
+
