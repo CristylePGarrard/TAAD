@@ -1,0 +1,47 @@
+body {
+  position: relative;
+  min-height: 70rem;
+  background: url("../images/ChlKbrDbkground.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Assistant', sans-serif;
+}
+#my-nav-links {
+  color: #2BBBAD;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  outline: solid;
+  outline-color: #9933CC;
+  outline-width: 1px;
+}
+ol.carousel-indicators {
+   position: absolute;
+   bottom: 5px;
+   margin: 0;
+   left: 0;
+   right: 0;
+   width: auto;
+}
+
+ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+   width: .75rem;
+   height: .75rem;
+   margin: 0;
+   border-radius: 50%;
+   border: 0;
+   background: transparent;
+}
+
+ol.carousel-indicators li {
+   background: rgba(255,255,255,0.39);
+   margin-left: .5rem;
+   margin-right: .5rem;
+}
+
+ol.carousel-indicators li.active {
+   background: #9933CC;
+}
