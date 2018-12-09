@@ -17,6 +17,9 @@ body {
   outline-color: #9933CC;
   outline-width: 1px;
 }
+#my-nav-links:hover {
+  color: #fff59d;
+}
 ol.carousel-indicators {
    position: absolute;
    bottom: 5px;
@@ -44,4 +47,48 @@ ol.carousel-indicators li {
 
 ol.carousel-indicators li.active {
    background: #9933CC;
+}
+
+my-footer-nav {
+  margin-bottom: 1px;
+  margin-top: 30px;
+
+}
+@media only screen and (max-width: 991px) {
+  #footerHide {
+    display: none;
+  }
+}
+@media only screen and (max-width: 991px) and (min-width:1500px){
+  #footerDisplay {
+    display: none;
+  }
+}
+
+#my-footer-websiteLinks {
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: #2BBBAD;
+}
+#my-footer-websiteLinks:hover {
+    color: #fff59d;
+}
+#my-footer-links {
+  color:#9933CC;
+  font-size: .75rem;
+  padding:0;
+  /* margin:.2em; */
+  text-transform: uppercase;
+  text-indent: 1px;
+}
+#my-footer-links:hover {
+  color: #fff59d;
+}
+.my-copywright {
+  color:#9933CC;
+  font-size: .75em;
+  font-weight: lighter;
+}
+.my-copywright:hover {
+  color:#fff59d;
 }
