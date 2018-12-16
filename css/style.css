@@ -1,3 +1,25 @@
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: .5rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: .9rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
 body {
   position: relative;
   min-height: 70rem;
@@ -19,6 +41,9 @@ body {
 }
 #my-nav-links:hover {
   color: #fff59d;
+}
+a.active {
+  color: #fff59d !important;
 }
 ol.carousel-indicators {
    position: absolute;
@@ -91,4 +116,97 @@ my-footer-nav {
 }
 .my-copywright:hover {
   color:#fff59d;
+}
+
+/* Search by Journal */
+.cbnt {
+  min-width: 10.5em;
+}
+.cbnt-drwr {
+  background-color: #1C2331;
+  margin: 0;
+  padding: .8em;
+  min-width: 10em;
+}
+.cbnt-lbl {
+  outline: solid 2px #2BBBAD;
+  color: #2BBBAD;
+  font-size: .7em;
+  text-transform: uppercase;
+  padding: .5em;
+  margin: 0;
+  /* min-width: 9em; */
+}
+
+.my-lbl {
+  outline: solid 3px #2BBBAD;
+  color: #2BBBAD;
+  background-color: #1C2331;
+  /* font-size: 1em; */
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.my-lbl:hover {
+  color: #fff59d;
+  text-shadow: none;
+}
+
+/* Search tables*/
+.tbl-row {
+  background-color: #1C2331;
+  /* height: 20em; */
+  text-transform: uppercase;
+}
+.my-tbl-card {
+  background-color: #78909c;
+}
+.my-tbl-card-body {
+  background-color: #1C2331;
+  /* width: 100%; */
+
+}
+#my-tbl-card-header {
+  color: #aa66cc;
+  text-transform: uppercase;
+  text-align: center;
+}
+.my-tbl-btn {
+  background-color: #1C2331;
+  color: white;
+  text-transform: capitalize;
+  font-size: 1.05rem;
+}
+.my-tbl-btn:hover {
+  color: #2BBBAD;
+}
+.my-tbl-row {
+  padding-top: .5em;
+  padding-bottom: .5em;
+  font-size: .9rem;
+  text-transform: uppercase;
+  background-color: #1C2331;
+  color: #aa66cc;
+}
+.my-tbl-row-header {
+  background-color: #1C2331;
+  color: #2BBBAD;
+  text-transform: uppercase;
+  padding-top: .25em;
+  padding-bottom: .25em;
+}
+.my-tbl-links {
+  color: #aa66cc;
+}
+.my-tbl-links:hover {
+  color: #fff59d;
+  text-decoration: none;
+}
+.my-tbl-scroll {
+  height: 250px;
+  overflow-y: auto;
+  width: 100%;
+}
+
+#my-author-tbl {
+
 }

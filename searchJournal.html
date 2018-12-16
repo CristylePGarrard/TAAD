@@ -1,0 +1,520 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- custom css -->
+    <!-- <link rel="stylesheet" href="https://aletahakan.github.io/TAAD/css/style.css"> -->
+    <link rel="stylesheet" href="/Users/cristylegarrard/repos/TAAD/css/style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Assistant:300" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <title>TAAD - Search Library</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="http://www.telescopearray.org"><img src="images/TALogo_720WFC.gif" alt="TA-Logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Nav links -->
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active m-2">
+            <a class="nav-link" id="my-nav-links" href="#">TAAD Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item m-2">
+            <a class="nav-link" id="my-nav-links" href="#">Search Our Library</a>
+          </li>
+          <li class="nav-item m-2">
+            <a class="nav-link disabled" id="my-nav-links" href="#">Meet The Authors</a>
+          </li>
+          <li class="nav-item m-2">
+            <a class="nav-link" id="my-nav-links" href="http://www.telescopearray.org">telescopearray.org</a>
+          </li>
+          <li class="nav-item m-2">
+            <a class="nav-link disabled" id="my-nav-links" href="#">Login</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row no-gutters">
+        <!-- File cabinet -->
+        <div class="col col-lg-2 p-1 m-1 float-left">
+          <div class="row cbnt mt-5 p-2 mr-1 justify-content-center bg-dark">
+            <div class="card cbnt-drwr">
+              <div class="card-body cbnt-lbl text-center">
+                <div class="card-text">
+                  Search by Author
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row cbnt p-2 mr-1 justify-content-center bg-dark">
+            <div class="card cbnt-drwr">
+              <div class="card-body cbnt-lbl text-center">
+                <div class="card-text">
+                  Search by Journal
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row cbnt p-2 mr-1 justify-content-center bg-dark">
+            <div class="card cbnt-drwr">
+              <div class="card-body cbnt-lbl text-center">
+                <div class="card-text">
+                  Search by Title
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Tables -->
+        <div class="p-1 ml-1 float-right col">
+          <div class="row text-center justify-content-center">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col">
+                  <div class="card m-1 p-2 my-tbl-card">
+                    <div class="card-body my-tbl-card-body">
+                      <div class="card-header" id="my-tbl-card-header">
+                        Click on the <strong style="color:#fff59d;">authors name</strong> to see the titles of the articles they have contributed to
+                        <!-- Insert search form to query the table -->
+                      </div>
+                      <div class="row">
+                        <button class="my-tbl-btn col" type="button" data-toggle="collapse" data-target="#author1" aria-expanded="false" aria-controls="author1">
+                          Lawrence R Wiencke
+                        </button>
+                        <div class="collapse my-tbl-scroll" id="author1">
+                          <div class="list-group no-gutters">
+                            <!-- list-group-item is like a row. Every article attributed to the author will have it's own "row" or list-group-item section -->
+                            <button class="list-group-item my-tbl-row-header justify-content-between d-flex">
+
+                              <div class="col-lg-8 col-md-4">Title of Article
+                              </div>
+                              <div class="col-lg-2">Links</div>
+                            </button>
+                            <button class="list-group-item my-tbl-row justify-content-between">
+                              <div class="row">
+                                <div class="d-flex w-100">
+                                  <!-- Auto assign a number to each of the articles attributed to the author -->
+
+                                  <!-- link to the article on the website for the journal it is published in -->
+                                  <div class="col-10 text-left">
+                                    <a target="_blank"
+                                  href="https://doi.org/10.1016/S0168-9002(99)00164-3" class="my-tbl-links" title="Go to Article on Journal Website">Radio-controlled xenon flashers for atmospheric monitoring at the HiRes cosmic ray observatory</a>
+                                  </div>
+                                  <!-- 2 links to the article -->
+                                  <div class="col">
+                                    <!-- Link to the article on the journal website -->
+                                    <a target="_blank"
+                                    href="#" class="my-tbl-links" title="Go to Article on Journal Website">
+                                      <i class="fa
+                                      fa-book" aria-hidden="true"></i>
+                                    </a>
+                                    <!-- Link to local PDF -->
+                                    <a target="_blank" href="#" class="my-tbl-links" title="Open Local PDF">
+                                      <i class="fa
+                                      fa-file-pdf" aria-hidden="true"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </button>
+                            <!--filler row's-->
+                            <button class="list-group-item my-tbl-row justify-content-between">
+                              <div class="row">
+                                <div class="d-flex w-100">
+
+                                  <div class="col-10 text-left">
+                                    <a target="_blank"
+                                  href="#" class="my-tbl-links" title="Go to Article on Journal Website">First Observation of the Greisen-Zatsepin-Kuzmin Suppression</a>
+                                  </div>
+                                  <div class="col">
+                                    <a target="_blank"
+                                    href="#" class="my-tbl-links" title="Go to Article on Journal Website">
+                                      <i class="fa
+                                      fa-book" aria-hidden="true"></i>
+                                    </a>
+                                    <a target="_blank" href="#" class="my-tbl-links" title="Open Local PDF">
+                                      <i class="fa
+                                      fa-file-pdf" aria-hidden="true"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </button>
+                            <button class="list-group-item my-tbl-row justify-content-between">
+                              <div class="row">
+                                <div class="d-flex w-100">
+
+                                  <div class="col-10 text-left">
+                                    <a target="_blank"
+                                  href="#" class="my-tbl-links" title="Go to Article on Journal Website">Geometrical reconstruction with the High Resolution Fly’s Eye prototype cosmic ray detector</a>
+                                  </div>
+                                  <div class="col">
+                                    <a target="_blank"
+                                    href="#" class="my-tbl-links" title="Go to Article on Journal Website">
+                                      <i class="fa
+                                      fa-book" aria-hidden="true"></i>
+                                    </a>
+                                    <a target="_blank" href="#" class="my-tbl-links" title="Open Local PDF">
+                                      <i class="fa
+                                      fa-file-pdf" aria-hidden="true"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </button>
+                            <button class="list-group-item my-tbl-row justify-content-between">
+                              <div class="row">
+                                <div class="d-flex w-100">
+
+                                  <div class="col-10 text-left">
+                                    <a target="_blank"
+                                  href="#" class="my-tbl-links" title="Go to Article on Journal Website">Radio-controlled xenon flashers for atmospheric monitoring at the HiRes cosmic ray observatory</a>
+                                  </div>
+                                  <div class="col">
+                                    <a target="_blank"
+                                    href="#" class="my-tbl-links" title="Go to Article on Journal Website">
+                                      <i class="fa
+                                      fa-book" aria-hidden="true"></i>
+                                    </a>
+                                    <a target="_blank" href="#" class="my-tbl-links" title="Open Local PDF">
+                                      <i class="fa
+                                      fa-file-pdf" aria-hidden="true"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </button>
+                            <button class="list-group-item my-tbl-row justify-content-between">
+                              <div class="row">
+                                <div class="d-flex w-100">
+
+                                  <div class="col-10 text-left">
+                                    <a target="_blank"
+                                  href="#" class="my-tbl-links" title="Go to Article on Journal Website">First Observation of the Greisen-Zatsepin-Kuzmin Suppression</a>
+                                  </div>
+                                  <div class="col">
+                                    <a target="_blank"
+                                    href="#" class="my-tbl-links" title="Go to Article on Journal Website">
+                                      <i class="fa
+                                      fa-book" aria-hidden="true"></i>
+                                    </a>
+                                    <a target="_blank" href="#" class="my-tbl-links" title="Open Local PDF">
+                                      <i class="fa
+                                      fa-file-pdf" aria-hidden="true"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </button>
+                            <button class="list-group-item my-tbl-row justify-content-between">
+                              <div class="row">
+                                <div class="d-flex w-100">
+
+                                  <div class="col-10 text-left">
+                                    <a target="_blank"
+                                  href="#" class="my-tbl-links" title="Go to Article on Journal Website">Title Article 2</a>
+                                  </div>
+                                  <div class="col">
+                                    <a target="_blank"
+                                    href="#" class="my-tbl-links" title="Go to Article on Journal Website">
+                                      <i class="fa
+                                      fa-book" aria-hidden="true"></i>
+                                    </a>
+                                    <a target="_blank" href="#" class="my-tbl-links" title="Open Local PDF">
+                                      <i class="fa
+                                      fa-file-pdf" aria-hidden="true"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </button>
+                            <button class="list-group-item my-tbl-row justify-content-between">
+                              <div class="row">
+                                <div class="d-flex w-100">
+
+                                  <div class="col-10 text-left">
+                                    <a target="_blank"
+                                  href="#" class="my-tbl-links" title="Go to Article on Journal Website">Title Article 3</a>
+                                  </div>
+                                  <div class="col">
+                                    <a target="_blank"
+                                    href="#" class="my-tbl-links" title="Go to Article on Journal Website">
+                                      <i class="fa
+                                      fa-book" aria-hidden="true"></i>
+                                    </a>
+                                    <a target="_blank" href="#" class="my-tbl-links" title="Open Local PDF">
+                                      <i class="fa
+                                      fa-file-pdf" aria-hidden="true"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </button>
+                            <button class="list-group-item my-tbl-row justify-content-between">
+                              <div class="row">
+                                <div class="d-flex w-100">
+
+                                  <div class="col-10 text-left">
+                                    <a target="_blank"
+                                  href="#" class="my-tbl-links" title="Go to Article on Journal Website">Title Article 4</a>
+                                  </div>
+                                  <div class="col">
+                                    <a target="_blank"
+                                    href="#" class="my-tbl-links" title="Go to Article on Journal Website">
+                                      <i class="fa
+                                      fa-book" aria-hidden="true"></i>
+                                    </a>
+                                    <a target="_blank" href="#" class="my-tbl-links" title="Open Local PDF">
+                                      <i class="fa
+                                      fa-file-pdf" aria-hidden="true"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </button>
+                            <button class="list-group-item my-tbl-row justify-content-between">
+                              <div class="row">
+                                <div class="d-flex w-100">
+
+                                  <div class="col-10 text-left">
+                                    <a target="_blank"
+                                  href="#" class="my-tbl-links" title="Go to Article on Journal Website">Title Article 5</a>
+                                  </div>
+                                  <div class="col">
+                                    <a target="_blank"
+                                    href="#" class="my-tbl-links" title="Go to Article on Journal Website">
+                                      <i class="fa
+                                      fa-book" aria-hidden="true"></i>
+                                    </a>
+                                    <a target="_blank" href="#" class="my-tbl-links" title="Open Local PDF">
+                                      <i class="fa
+                                      fa-file-pdf" aria-hidden="true"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <button class="my-tbl-btn col" type="button" data-toggle="collapse" data-target="#author2" aria-expanded="false" aria-controls="author2">
+                          First and Last Name of Author
+                        </button>
+                        <div class="collapse my-tbl-scroll" id="author2">
+                          <div class="list-group no-gutters">
+                            <button class="list-group-item my-tbl-row-header justify-content-between d-flex">
+
+                              <div class="col-lg-8 col-md-4">Title of Article
+                              </div>
+                              <div class="col-lg-2">Links</div>
+                            </button>
+                            <button class="list-group-item my-tbl-row justify-content-between">
+                              <div class="row">
+                                <div class="d-flex w-100">
+
+                                  <div class="col-10 text-left">
+                                    <a target="_blank"
+                                  href="#" class="my-tbl-links" title="Go to Article on Journal Website">Radio-controlled xenon flashers for atmospheric monitoring at the HiRes cosmic ray observatory</a>
+                                  </div>
+                                  <div class="col">
+                                    <a target="_blank"
+                                    href="#" class="my-tbl-links" title="Go to Article on Journal Website">
+                                      <i class="fa
+                                      fa-book" aria-hidden="true"></i>
+                                    </a>
+                                    <a target="_blank" href="#" class="my-tbl-links" title="Open Local PDF">
+                                      <i class="fa
+                                      fa-file-pdf" aria-hidden="true"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </button>
+                            <button class="list-group-item my-tbl-row justify-content-between">
+                              <div class="row">
+                                <div class="d-flex w-100">
+
+                                  <div class="col-10 text-left">
+                                    <a target="_blank"
+                                  href="#" class="my-tbl-links" title="Go to Article on Journal Website">Title Article 2</a>
+                                  </div>
+                                  <div class="col">
+                                    <a target="_blank"
+                                    href="#" class="my-tbl-links" title="Go to Article on Journal Website">
+                                      <i class="fa
+                                      fa-book" aria-hidden="true"></i>
+                                    </a>
+                                    <a target="_blank" href="#" class="my-tbl-links" title="Open Local PDF">
+                                      <i class="fa
+                                      fa-file-pdf" aria-hidden="true"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </button>
+                            <button class="list-group-item my-tbl-row justify-content-between">
+                              <div class="row">
+                                <div class="d-flex w-100">
+
+                                  <div class="col-10 text-left">
+                                    <a target="_blank"
+                                  href="#" class="my-tbl-links" title="Go to Article on Journal Website">Title Article 3</a>
+                                  </div>
+                                  <div class="col">
+                                    <a target="_blank"
+                                    href="#" class="my-tbl-links" title="Go to Article on Journal Website">
+                                      <i class="fa
+                                      fa-book" aria-hidden="true"></i>
+                                    </a>
+                                    <a target="_blank" href="#" class="my-tbl-links" title="Open Local PDF">
+                                      <i class="fa
+                                      fa-file-pdf" aria-hidden="true"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </button>
+                            <button class="list-group-item my-tbl-row justify-content-between">
+                              <div class="row">
+                                <div class="d-flex w-100">
+
+                                  <div class="col-10 text-left">
+                                    <a target="_blank"
+                                  href="#" class="my-tbl-links" title="Go to Article on Journal Website">Title Article 4</a>
+                                  </div>
+                                  <div class="col">
+                                    <a target="_blank"
+                                    href="#" class="my-tbl-links" title="Go to Article on Journal Website">
+                                      <i class="fa
+                                      fa-book" aria-hidden="true"></i>
+                                    </a>
+                                    <a target="_blank" href="#" class="my-tbl-links" title="Open Local PDF">
+                                      <i class="fa
+                                      fa-file-pdf" aria-hidden="true"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </button>
+                            <button class="list-group-item my-tbl-row justify-content-between">
+                              <div class="row">
+                                <div class="d-flex w-100">
+
+                                  <div class="col-10 text-left">
+                                    <a target="_blank"
+                                  href="#" class="my-tbl-links" title="Go to Article on Journal Website">Title Article 5</a>
+                                  </div>
+                                  <div class="col">
+                                    <a target="_blank"
+                                    href="#" class="my-tbl-links" title="Go to Article on Journal Website">
+                                      <i class="fa
+                                      fa-book" aria-hidden="true"></i>
+                                    </a>
+                                    <a target="_blank" href="#" class="my-tbl-links" title="Open Local PDF">
+                                      <i class="fa
+                                      fa-file-pdf" aria-hidden="true"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer>
+      <nav class="nav navbar-dark bg-dark my-footer-nav justify-content-left">
+        <div class="col-12">
+          <div class="row d-flex justify-content-center">
+            <a class="nav-link" id="my-footer-websiteLinks" href="#">TAAD Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" id="my-footer-websiteLinks" href="#">Search Our Library</a>
+            <a class="nav-link disabled" id="my-footer-websiteLinks" href="#">Meet The Authors</a>
+            <a class="nav-link" id="my-footer-websiteLinks" href="#">telescopearray.org</a>
+            <a class="nav-link disabled" id="my-footer-websiteLinks" href="#">Login</a>
+          </div>
+
+          <div class="row justify-content-center d-flex" id="footerDisplay">
+            <div class="row justify-content-between">
+              <div class="col-6 text-center pt-5">
+                <a class="clearfix" href="http://www.utah.edu"><img src="images/UniversityLogos/U-Horizontal-Logo/UlogoHv1-1200px.png" alt="TA-Logo" width=110 height=40></a>
+              </div>
+              <div class="col-6 text-center pt-3">
+                <a class="clearfix" href="http://www.telescopearray.org"><img src="images/TALogo_720WFC.gif" alt="Telescope Array Logo" height=100 width=100></a>
+              </div>
+            </div>
+
+          </div>
+          <div class="row justify-content-center pt-1" id="footerDisplay">
+            <a href="http://www.physics.utah.edu/index.php/research/cosmic-rays" class="my-copywright">&copy Telescope Array Project at the University of Utah</a>
+          </div>
+
+          <div class="row justify-content-center">
+            <p class="text-center mb-1 ml-2 mr-2 justify-content-center" style="color:#fff59d;">The following institutions are members of the Telescope Array Collaboration.</p>
+            <div class="row text-center justify-content-between d-flex ml-2 mr-2 pb-1">
+              <a class="nav-link flex-fill" id="my-footer-links" href="http://www.chiba-u.ac.jp/e/index.html">Chiba University</a>
+              <a class="nav-link flex-fill" id="my-footer-links" href="http://www.ehime-u.ac.jp/english/index.html">Ehime University</a>
+              <a class="nav-link flex-fill" id="my-footer-links" href="http://www.hiroshima-cu.ac.jp/english/index.php">Hiroshima City University</a>
+              <a class="nav-link flex-fill" id="my-footer-links" href="http://www.kanagawa-u.ac.jp/english/index.html">Kanagawa University</a>
+              <a class="nav-link flex-fill" id="my-footer-links" href="http://www.kek.jp/intra-e/index.html">KEK - High Energy Accelerator Research Organization</a>
+              <a class="nav-link flex-fill" id="my-footer-links" href="http://ccpc01.cc.kindai.ac.jp/english/index.htm">Kinki University</a>
+              <a class="nav-link flex-fill" id="my-footer-links" href="http://www-en.kochi-u.ac.jp/">Kochi University</a>
+              <a class="nav-link flex-fill" id="my-footer-links" href="http://www.kyoto-u.ac.jp/en">Kyoto University</a>
+              <a class="nav-link flex-fill" id="my-footer-links" href="http://www.nirs.go.jp/ENG/">National Institute of Radiological Sciences</a>
+              <a class="nav-link flex-fill" id="my-footer-links" href="http://www.osaka-cu.ac.jp/english/">Osaka City University</a>
+              <a class="nav-link flex-fill" id="my-footer-links" href="http://www.riken.jp/engn/r-world/research/lab/asi/index.html">RIKEN Advanced Science Institute</a>
+              <a class="nav-link flex-fill" id="my-footer-links" href="http://www.ritsumei.ac.jp/eng/">Ritsumeikan University</a>
+              <a class="nav-link flex-fill" id="my-footer-links" href="http://www.saitama-u.ac.jp/en/">Saitama University</a>
+              <a class="nav-link flex-fill" id="my-footer-links" href="http://www.tcu.ac.jp/english/index.html">Tokyo City University</a>
+              <a class="nav-link flex-fill" id="my-footer-links" href="http://www.titech.ac.jp/english/index.html">Tokyo Institute of Technology</a>
+              <a class="nav-link flex-fill" id="my-footer-links" href="http://www.sut.ac.jp/en">Tokyo University of Science</a>
+              <a class="nav-link flex-fill" id="my-footer-links" href="http://www.icrr.u-tokyo.ac.jp/index_e.html">University of Tokyo - Institute for Cosmic Ray Research</a>
+              <a class="nav-link flex-fill" id="my-footer-links" href="http://www.waseda.jp/top/index-e.html">Waseda University</a>
+              <a class="nav-link flex-fill" id="my-footer-links" href="http://www2.yamanashi.ac.jp/">Yamanashi University</a>
+              <a class="nav-link flex-fill" id="my-footer-links" href="http://www.ulb.ac.be/ulb/presentation/uk.html">Université Libre de Bruxelles</a>
+              <a class="nav-link flex-fill" id="my-footer-links" href="http://plus.cnu.ac.kr/english/index.jsp">Chungnam National University</a>
+              <a class="nav-link flex-fill" id="my-footer-links" href="http://www.ewha.ac.kr/english">Ewha W. University</a>
+              <a class="nav-link flex-fill" id="my-footer-links" href="http://www.hanyang.ac.kr/english/">Hanyang University</a>
+              <a class="nav-link flex-fill" id="my-footer-links" href="http://www.yonsei.ac.kr/eng/">Yonsei University</a>
+              <a class="nav-link flex-fill" id="my-footer-links" href="http://www.inr.ac.ru/">INR - Institute for Nuclear Research of the Russian Academy of Sciences</a>
+              <a class="nav-link flex-fill" id="my-footer-links" href="http://www.du.edu/nsm/departments/physicsandastronomy/">University of Denver</a>
+              <a class="nav-link flex-fill" id="my-footer-links" href="http://www.usu.edu/">Utah State University</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
