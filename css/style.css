@@ -92,7 +92,8 @@ my-footer-nav {
 
 #my-footer-websiteLinks {
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: .80rem;
+  margin: 0;
   color: #2BBBAD;
 }
 #my-footer-websiteLinks:hover {
@@ -100,8 +101,9 @@ my-footer-nav {
 }
 #my-footer-links {
   color:#9933CC;
-  font-size: .75rem;
+  font-size: .65rem;
   padding:0;
+  margin: 0;
   /* margin:.2em; */
   text-transform: uppercase;
   text-indent: 1px;

@@ -1,0 +1,26 @@
+{
+  "carousel" : "index.html",
+  "images" : [
+    {
+      "name" : "array17.jpg",
+      "description" : "Repairing one of the scintillators",
+      "location" : "Delta,UT",
+      "src" : "images/carousel/array17.jpg",
+      "alt" : "Repairing Scintillator"
+    },
+    {
+      "name" : "31Scintillator1.png",
+      "description" : "Scintillator",
+      "location" : "Delta,UT",
+      "src" : "images/carousel/31Scintillator1.png",
+      "alt" : "Scintillator"
+    },
+    {
+      "name" : "ChronHeadline.png",
+      "description" : "Installing the scintillators",
+      "location" : "Delta,UT",
+      "src" : "images/carousel/ChronHeadline.png",
+      "alt" : "Scintillator Installation"
+    }
+  ]
+};

@@ -1,0 +1,114 @@
+{
+  "Project":"Telescope Array",
+  "Collaborators": [
+    {
+      "Organization" : "Chiba Organization",
+      "url" : "http://www.chiba-u.ac.jp/e/index.html"
+    },
+    {
+      "Organization" : "Ehime Organization",
+      "url" : "http://www.ehime-u.ac.jp/english/index.html"
+    },
+    {
+      "Organization" : "Hiroshima City Organization",
+      "url" : "http://www.hiroshima-cu.ac.jp/english/index.php"
+    },
+    {
+      "Organization" : "Kanagawa Organization",
+      "url" : "http://www.kanagawa-u.ac.jp/english/index.html"
+    },
+    {
+      "Organization" : "KEK - High Energy Accelerator Research Organization",
+      "url" : "http://www.kek.jp/intra-e/index.html"
+    },
+    {
+      "Organization" : "Kinki Organization",
+      "url" : "http://ccpc01.cc.kindai.ac.jp/english/index.html"
+
+    },
+    {
+      "Organization" : "Kochi Organization",
+      "url" : "http://www-en.kochi-u.ac.jp/"
+    },
+    {
+      "Organization" : "Kyoto Organization",
+      "url" : "http://www.kyoto-u.ac.jp/en"
+    },
+    {
+      "Organization" : "National Institute of Radiological Sciences",
+      "url" : "http://www.nirs.go.jp/ENG/"
+    },
+    {
+      "Organization" : "Osaka City Organization",
+      "url" : "http://www.osaka-cu.ac.jp/english/"
+    },
+    {
+      "Organization" : "RIKEN Advanced Science Institute",
+      "url" : "http://www.riken.jp/engn/r-world/research/lab/asi/index.html"
+    },
+    {
+      "Organization" : "Ritsumeikan Organization",
+      "url" : "http://www.ritsumei.ac.jp/eng/"
+    },
+    {
+      "Organization" : "Saitama Organization",
+      "url" : "http://www.saitama-u.ac.jp/en/"
+    },
+    {
+      "Organization" : "Tokyo City Organization",
+      "url" : "http://www.tcu.ac.jp/english/index.html"
+    },
+    {
+      "Organization" : "Tokyo Institute of Technology",
+      "url" : "http://www.titech.ac.jp/english/index.html"
+    },
+    {
+      "Organization" : "Tokyo Organization of Science",
+      "url" : "http://www.sut.ac.jp/en"
+    },
+    {
+      "Organization" : "Organization of Tokyo - Institute for Cosmic Ray Research",
+      "url" : "http://www.icrr.u-tokyo.ac.jp/index_e.html"
+    },
+    {
+      "Organization" : "Waseda Organization",
+      "url" : "http://www.waseda.jp/top/index-e.html"
+    },
+    {
+      "Organization" : "Yamanashi Organization",
+      "url" : "http://www2.yamanashi.ac.jp/"
+    },
+    {
+      "Organization" : "Université Libre de Bruxelles",
+      "url" : "http://www.ulb.ac.be/ulb/presentation/uk.html"
+    },
+    {
+      "Organization" : "Chungnam National Organization",
+      "url" : "http://plus.cnu.ac.kr/english/index.jsp"
+    },
+    {
+      "Organization" : "Ewha W. Organization",
+      "url" : "http://www.ewha.ac.kr/english"
+    },
+    {
+      "Organization" : "Hanyang Organization",
+      "url" : "http://www.hanyang.ac.kr/english/"
+    },
+    {
+      "Organization" : "Yonsei Organization",
+      "url" : "http://www.yonsei.ac.kr/eng/"
+    },
+    {
+      "Organization" : "INR - Institute for Nuclear Research of the Russian Academy of Sciences",
+      "url" : "http://www.inr.ac.ru/"
+    },
+    {
+      "Organization" : "Organization of Denver",
+      "url" : "http://www.du.edu/nsm/departments/physicsandastronomy/"
+    },
+    {
+      "Organization" : "http://www.usu.edu/",
+      "url" : "Utah State Organization"
+    }
+  ]
+}

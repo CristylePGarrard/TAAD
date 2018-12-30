@@ -1,0 +1,217 @@
+{
+  "page" : "index.html",
+  "section" : [
+    {
+      "name" : "carousel",
+      "images" : [
+        {
+          "name" : "array17.jpg",
+          "description" : "Repairing one of the scintillators",
+          "location" : "Delta,UT",
+          "src" : "images/carousel/array17.jpg",
+          "alt" : "Repairing Scintillator"
+        },
+        {
+          "name" : "31Scintillator1.png",
+          "description" : "Scintillator",
+          "location" : "Delta,UT",
+          "src" : "images/carousel/31Scintillator1.png",
+          "alt" : "Scintillator"
+        },
+        {
+          "name" : "ChronHeadline.png",
+          "description" : "Installing the scintillators",
+          "location" : "Delta,UT",
+          "src" : "images/carousel/ChronHeadline.png",
+          "alt" : "Scintillator Installation"
+        }
+      ]
+    }
+  ]
+},
+{
+  "page" : "all",
+  "section" : [
+    {
+      "name": "members",
+      "Collaborators": [
+        {
+          "Organization" : "Chiba University",
+          "url" : "http://www.chiba-u.ac.jp/e/index.html"
+        },
+        {
+          "Organization" : "Ehime University",
+          "url" : "http://www.ehime-u.ac.jp/english/index.html"
+        },
+        {
+          "Organization" : "Hiroshima City University",
+          "url" : "http://www.hiroshima-cu.ac.jp/english/index.php"
+        },
+        {
+          "Organization" : "Kanagawa University",
+          "url" : "http://www.kanagawa-u.ac.jp/english/index.html"
+        },
+        {
+          "Organization" : "KEK - High Energy Accelerator Research Organization",
+          "url" : "http://www.kek.jp/intra-e/index.html"
+        },
+        {
+          "Organization" : "Kinki University",
+          "url" : "http://ccpc01.cc.kindai.ac.jp/english/index.html"
+
+        },
+        {
+          "Organization" : "Kochi University",
+          "url" : "http://www-en.kochi-u.ac.jp/"
+        },
+        {
+          "Organization" : "Kyoto University",
+          "url" : "http://www.kyoto-u.ac.jp/en"
+        },
+        {
+          "Organization" : "National Institute of Radiological Sciences",
+          "url" : "http://www.nirs.go.jp/ENG/"
+        },
+        {
+          "Organization" : "Osaka City University",
+          "url" : "http://www.osaka-cu.ac.jp/english/"
+        },
+        {
+          "Organization" : "RIKEN Advanced Science Institute",
+          "url" : "http://www.riken.jp/engn/r-world/research/lab/asi/index.html"
+        },
+        {
+          "Organization" : "Ritsumeikan University",
+          "url" : "http://www.ritsumei.ac.jp/eng/"
+        },
+        {
+          "Organization" : "Saitama University",
+          "url" : "http://www.saitama-u.ac.jp/en/"
+        },
+        {
+          "Organization" : "Tokyo City University",
+          "url" : "http://www.tcu.ac.jp/english/index.html"
+        },
+        {
+          "Organization" : "Tokyo Institute of Technology",
+          "url" : "http://www.titech.ac.jp/english/index.html"
+        },
+        {
+          "Organization" : "Tokyo University of Science",
+          "url" : "http://www.sut.ac.jp/en"
+        },
+        {
+          "Organization" : "University of Tokyo - Institute for Cosmic Ray Research",
+          "url" : "http://www.icrr.u-tokyo.ac.jp/index_e.html"
+        },
+        {
+          "Organization" : "Waseda University",
+          "url" : "http://www.waseda.jp/top/index-e.html"
+        },
+        {
+          "Organization" : "Yamanashi University",
+          "url" : "http://www2.yamanashi.ac.jp/"
+        },
+        {
+          "Organization" : "Université Libre de Bruxelles",
+          "url" : "http://www.ulb.ac.be/ulb/presentation/uk.html"
+        },
+        {
+          "Organization" : "Chungnam National University",
+          "url" : "http://plus.cnu.ac.kr/english/index.jsp"
+        },
+        {
+          "Organization" : "Ewha W. University",
+          "url" : "http://www.ewha.ac.kr/english"
+        },
+        {
+          "Organization" : "Hanyang University",
+          "url" : "http://www.hanyang.ac.kr/english/"
+        },
+        {
+          "Organization" : "Yonsei University",
+          "url" : "http://www.yonsei.ac.kr/eng/"
+        },
+        {
+          "Organization" : "INR - Institute for Nuclear Research of the Russian Academy of Sciences",
+          "url" : "http://www.inr.ac.ru/"
+        },
+        {
+          "Organization" : "University of Denver",
+          "url" : "http://www.du.edu/nsm/departments/physicsandastronomy/"
+        },
+        {
+          "Organization" : "Utah State University",
+          "url" : "http://www.usu.edu/"
+        }
+      ]
+    },
+    {
+      "name" : "links",
+      "pages" : [
+        {
+          "called" : "TAAD Home",
+          "href" : "index.html",
+          "filename" : "index.html",
+          "status" : "active"
+        },
+        {
+          "called" : "Search Our Library",
+          "href" : "searchLibrary.html",
+          "filename" : "library.html",
+          "status" : "active"
+        },
+        {
+          "called" : "Meet The Authors",
+          "href" : "#",
+          "filename" : "authors.html",
+          "status" : "disabled"
+        },
+        {
+          "called" : "telescopearray.org",
+          "href" : "http://www.telescopearray.org",
+          "filename" : "n/a",
+          "status" : "active"
+        },
+        {
+          "called" : "Login",
+          "href" : "#",
+          "filename" : "login.html",
+          "status" : "disabled"
+        }
+      ],
+      "images" : [
+        {
+          "navbar" : [
+            {
+              "filename" : "TALogo_720WFC.gif",
+              "src" : "images/TALogo_720WFC.gif",
+              "alt" : "Telescope Array Logo",
+              "href" : "http://www.telescopearray.org"
+            }
+          ]
+        },
+        {
+          "footer" : [
+            {
+              "filename" : "UlogoHv1-1200px.png",
+              "src" : "images/UniversityLogos/U-Horizontal-Logo/UlogoHv1-1200px.png",
+              "alt" : "University of Utah Logo",
+              "href" : "http://www.utah.edu",
+              "width" : "110",
+              "height" : "40"
+            },
+            {
+              "filename" : "TALogo_720WFC.gif",
+              "src" : "images/TALogo_720WFC.gif",
+              "alt" : "Telescope Array Logo",
+              "href" : "http://www.telescopearray.org",
+              "width" : "100",
+              "height" : "100"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
