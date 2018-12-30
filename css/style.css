@@ -141,12 +141,17 @@ my-footer-nav {
 }
 
 .my-lbl {
-  outline: solid 3px #2BBBAD;
+
   color: #2BBBAD;
   background-color: #1C2331;
-  /* font-size: 1em; */
+  font-size: .85rem;
   text-transform: uppercase;
   text-decoration: none;
+  text-shadow: none;
+  text-decoration-color: none;
+  border-radius: 30px;
+  /* margin:1em;
+  padding: 1em; */
 }
 .my-lbl:hover {
   color: #fff59d;
